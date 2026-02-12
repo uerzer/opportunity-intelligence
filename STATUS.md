@@ -75,9 +75,9 @@ Your complete $100K/month opportunity detection system is **LIVE and BACKED UP**
 - Status: ACTIVE ✅
 
 ### Recovery Documentation
-- **Emergency Guide:** docs/CONTEXT_RESTORATION_GUIDE.md (4.9KB)
-- **Project Status:** notes/github_backup_project_status.md (1.4KB)
-- **This Summary:** tmp/STATUS.md
+- **Emergency Guide:** @file:docs/CONTEXT_RESTORATION_GUIDE.md (4.9KB)
+- **Project Status:** @file:notes/github_backup_project_status.md (1.4KB)
+- **This Summary:** @file:tmp/STATUS.md
 
 ---
 
@@ -119,7 +119,7 @@ Your complete $100K/month opportunity detection system is **LIVE and BACKED UP**
 - **Target Revenue: $100K MRR** 🎯
 
 ### Key Resources
-All details in: `scanners/ai_agency_lead_generator.py`
+All details in: `@file:scripts/opportunity-scanners/ai_agency_lead_generator.py`
 - Top 7 niche details (pain points, budgets, objections)
 - Cold email templates
 - Pricing strategies ($1.5K-7K/month breakdown)
