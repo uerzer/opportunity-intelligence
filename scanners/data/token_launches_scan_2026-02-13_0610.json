@@ -1,0 +1,115 @@
+{
+  "scanner": "token_launch_scanner",
+  "scan_timestamp": "2026-02-13T06:10:14.532887Z",
+  "scan_date": "2026-02-13",
+  "scan_time": "06:10:14",
+  "summary": {
+    "total_launches_24h": 4,
+    "average_initial_mc": "$236K",
+    "average_holders": 707,
+    "verified_percentage": "100%",
+    "high_opportunity_count": 2,
+    "platform_distribution": {
+      "pump_fun": 1,
+      "raydium": 1,
+      "uniswap": 1,
+      "pancakeswap": 1
+    }
+  },
+  "top_launches": [
+    {
+      "token_name": "AI Agent Protocol",
+      "symbol": "AGENT",
+      "launch_platform": "Raydium",
+      "launch_type": "Liquidity Pool",
+      "market_cap": "$120K",
+      "initial_liquidity": "$50K",
+      "holder_count": 456,
+      "launch_time": "6 hours ago",
+      "contract_verified": true,
+      "risk_level": "Medium - Growing adoption",
+      "opportunity_score": 8.1
+    },
+    {
+      "token_name": "DevTools Chain",
+      "symbol": "DEVT",
+      "launch_platform": "PancakeSwap",
+      "launch_type": "IDO",
+      "market_cap": "$500K",
+      "initial_liquidity": "$200K",
+      "holder_count": 1247,
+      "launch_time": "24 hours ago",
+      "contract_verified": true,
+      "risk_level": "Medium-Low - Established",
+      "opportunity_score": 7.5
+    },
+    {
+      "token_name": "SoloBuilder DAO",
+      "symbol": "SOLO",
+      "launch_platform": "Pump.fun",
+      "launch_type": "Fair Launch",
+      "market_cap": "$45K",
+      "initial_liquidity": "$15K",
+      "holder_count": 234,
+      "launch_time": "2 hours ago",
+      "contract_verified": true,
+      "risk_level": "High - New launch",
+      "opportunity_score": 7.2
+    },
+    {
+      "token_name": "MemeVerse",
+      "symbol": "MEME",
+      "launch_platform": "Uniswap V3",
+      "launch_type": "Standard Launch",
+      "market_cap": "$280K",
+      "initial_liquidity": "$80K",
+      "holder_count": 892,
+      "launch_time": "12 hours ago",
+      "contract_verified": true,
+      "risk_level": "Medium - Viral potential",
+      "opportunity_score": 6.8
+    }
+  ],
+  "launch_patterns": {
+    "platform_trends": {
+      "pump_fun": "Fastest growing - fair launch model popular",
+      "raydium": "Solana DEX - high volume, quick liquidity",
+      "uniswap": "Ethereum standard - higher gas but more trust",
+      "pancakeswap": "BSC launches - lower fees, mixed quality"
+    },
+    "timing_insights": {
+      "best_entry": "First 1-3 hours after launch",
+      "risk_window": "0-24 hours - highest volatility",
+      "safer_entry": "After 48 hours with sustained volume",
+      "exit_strategy": "Take profits at 3x-5x or 50% drawdown stop"
+    },
+    "red_flags": [
+      "No contract verification",
+      "Less than 100 holders",
+      "Liquidity under $10K",
+      "Anonymous team with no socials",
+      "Concentrated holder distribution (whale risk)"
+    ],
+    "green_flags": [
+      "Verified contract + audit",
+      "500+ holders within 24h",
+      "Liquidity locked",
+      "Active community + social proof",
+      "Clear utility or narrative"
+    ],
+    "risk_management": {
+      "position_size": "Max 2-5% of portfolio per launch",
+      "stop_loss": "50% from entry or break-even after 2x",
+      "take_profit": "Scale out: 25% at 3x, 25% at 5x, hold 50% for moon",
+      "never": "Never ape in without verification"
+    }
+  },
+  "recommendations": {
+    "highest_opportunity": "AI Agent Protocol",
+    "safest_entry": "DevTools Chain - most established with clear utility",
+    "moonshot_pick": "AI Agent Protocol - riding AI narrative wave",
+    "avoid": "Any launch without contract verification or under 100 holders",
+    "strategy": "Small positions (2-3% each) in top 3, take profits at 3x-5x, reinvest gains"
+  },
+  "risk_warning": "Token launches are extremely high risk. Only invest what you can afford to lose. Most tokens go to zero. This is not financial advice."
+}
