@@ -1,0 +1,366 @@
+{
+  "scan_timestamp": "2026-02-13_0616",
+  "scan_date": "2026-02-13",
+  "scan_time_utc": "06:16",
+  "categories_analyzed": 5,
+  "pricing_gaps_identified": 5,
+  "high_opportunity_gaps": 5,
+  "top_opportunity": {
+    "category": "AI/ML Development Platforms",
+    "current_market": {
+      "low_end": "$99-$499/mo",
+      "high_end": "$1000+/mo"
+    },
+    "identified_gap": "Mid-market ($200-600/mo) underserved",
+    "opportunity_score": 92,
+    "gap_indicators": [
+      "Massive price jump from hobbyist to enterprise (10x+)",
+      "Mid-market companies struggle with DIY solutions",
+      "Growing AI adoption in non-tech companies",
+      "Lack of managed AI infrastructure for SMBs"
+    ],
+    "target_customers": [
+      "Series A-B startups building AI features",
+      "Digital agencies adding AI services",
+      "SaaS companies adding AI to existing products",
+      "E-commerce businesses implementing AI recommendations"
+    ],
+    "competitive_weakness": "Enterprise players focus on Fortune 500, indie tools lack reliability/scale",
+    "recommended_pricing": "$299-$599/mo (3-5 tiers from $299 to $599)",
+    "value_props_needed": [
+      "Managed model deployment and monitoring",
+      "Simple API for common AI tasks",
+      "Reasonable usage limits (100K-1M API calls/mo)",
+      "Team collaboration without enterprise complexity"
+    ]
+  },
+  "all_gaps": [
+    {
+      "category": "AI/ML Development Platforms",
+      "current_market": {
+        "low_end": "$99-$499/mo",
+        "high_end": "$1000+/mo"
+      },
+      "identified_gap": "Mid-market ($200-600/mo) underserved",
+      "opportunity_score": 92,
+      "gap_indicators": [
+        "Massive price jump from hobbyist to enterprise (10x+)",
+        "Mid-market companies struggle with DIY solutions",
+        "Growing AI adoption in non-tech companies",
+        "Lack of managed AI infrastructure for SMBs"
+      ],
+      "target_customers": [
+        "Series A-B startups building AI features",
+        "Digital agencies adding AI services",
+        "SaaS companies adding AI to existing products",
+        "E-commerce businesses implementing AI recommendations"
+      ],
+      "competitive_weakness": "Enterprise players focus on Fortune 500, indie tools lack reliability/scale",
+      "recommended_pricing": "$299-$599/mo (3-5 tiers from $299 to $599)",
+      "value_props_needed": [
+        "Managed model deployment and monitoring",
+        "Simple API for common AI tasks",
+        "Reasonable usage limits (100K-1M API calls/mo)",
+        "Team collaboration without enterprise complexity"
+      ]
+    },
+    {
+      "category": "No-Code Automation Tools",
+      "current_market": {
+        "low_end": "$29-$149/mo",
+        "high_end": "$500+/mo"
+      },
+      "identified_gap": "Growing teams ($75-250/mo) need more power without enterprise complexity",
+      "opportunity_score": 88,
+      "gap_indicators": [
+        "Zapier pricing jumps quickly with task volume",
+        "Power users hit limits on starter plans",
+        "Growing teams need custom integrations",
+        "Developer-friendly alternatives underpriced"
+      ],
+      "target_customers": [
+        "10-50 person companies scaling operations",
+        "Marketing agencies managing multiple clients",
+        "E-commerce businesses with complex workflows",
+        "Operations teams automating internal processes"
+      ],
+      "competitive_weakness": "Leaders charge per-task, creating unpredictable costs",
+      "recommended_pricing": "$149-$399/mo (unlimited tasks, tiered by integrations)",
+      "value_props_needed": [
+        "Unlimited task executions (fair use)",
+        "Custom integrations builder",
+        "Advanced logic and branching",
+        "Priority support and SLA guarantees"
+      ]
+    },
+    {
+      "category": "API Development & Testing",
+      "current_market": {
+        "low_end": "$0-$99/mo",
+        "high_end": "$500+/mo"
+      },
+      "identified_gap": "Professional tier ($150-400/mo) missing for growing API-first companies",
+      "opportunity_score": 85,
+      "gap_indicators": [
+        "Free tiers too limited for serious use",
+        "Enterprise tiers over-featured for growing companies",
+        "API economy growing rapidly",
+        "Developer tools market expanding"
+      ],
+      "target_customers": [
+        "API-first startups (Series A-B)",
+        "SaaS companies building public APIs",
+        "Fintech and payments companies",
+        "Developer platform companies"
+      ],
+      "competitive_weakness": "Postman focuses on testing, lacks full lifecycle management",
+      "recommended_pricing": "$199-$449/mo (tiered by team size and API requests)",
+      "value_props_needed": [
+        "Integrated testing, documentation, and monitoring",
+        "Generous API request limits (1M+ monthly)",
+        "Team collaboration with version control",
+        "Automated API contract testing"
+      ]
+    },
+    {
+      "category": "Customer Data Platforms",
+      "current_market": {
+        "low_end": "$100-$500/mo",
+        "high_end": "$2000+/mo"
+      },
+      "identified_gap": "Mid-market CDP ($400-1200/mo) with simpler setup needed",
+      "opportunity_score": 83,
+      "gap_indicators": [
+        "Enterprise CDPs have 6-12 month implementations",
+        "Mid-market needs simpler setup and maintenance",
+        "Data warehouse complexity barrier",
+        "Privacy regulations driving demand"
+      ],
+      "target_customers": [
+        "DTC brands with 50K-500K customers",
+        "SaaS companies needing better analytics",
+        "Media/content companies tracking engagement",
+        "Multi-channel retailers"
+      ],
+      "competitive_weakness": "Segment/mParticle expensive, Rudderstack requires technical setup",
+      "recommended_pricing": "$499-$999/mo (tiered by MTU: 100K, 250K, 500K)",
+      "value_props_needed": [
+        "Quick setup (days not months)",
+        "Pre-built integrations to common tools",
+        "Real-time data syncing",
+        "Simple visual interface for non-technical users"
+      ]
+    },
+    {
+      "category": "Internal Tools Builders",
+      "current_market": {
+        "low_end": "$29-$199/mo",
+        "high_end": "$1000+/mo"
+      },
+      "identified_gap": "Growing startups ($150-500/mo) need more than basic but not enterprise",
+      "opportunity_score": 80,
+      "gap_indicators": [
+        "Retool dominates but expensive for smaller teams",
+        "Many companies still using spreadsheets",
+        "Remote work increasing need for internal tools",
+        "No-code movement reducing technical barriers"
+      ],
+      "target_customers": [
+        "Operations teams at 20-100 person companies",
+        "Non-technical teams needing custom dashboards",
+        "Customer success teams building client portals",
+        "Finance/accounting teams automating workflows"
+      ],
+      "competitive_weakness": "Retool priced for engineering teams, not business users",
+      "recommended_pricing": "$199-$499/mo (tiered by apps and users: 5/10/25 apps)",
+      "value_props_needed": [
+        "Template library for common use cases",
+        "No-code first with code escape hatch",
+        "Mobile-responsive by default",
+        "Role-based access control and permissions"
+      ]
+    }
+  ],
+  "market_insights": {
+    "key_findings": [
+      "Average pricing gap between SMB and Enterprise tiers is 5-10x",
+      "Mid-market segment ($100-500/mo ARR potential) consistently underserved",
+      "Buyers willing to pay 2-3x for reliability + team features without complexity",
+      "AI/ML tooling shows highest opportunity score (92/100)",
+      "Usage-based pricing creating anxiety - flat tiers preferred for budget predictability"
+    ],
+    "market_patterns": [
+      "Freemium to Enterprise jump: Most products have weak mid-tier offerings",
+      "Team features paywall: Collaboration locked behind expensive plans",
+      "Support quality gap: Chat support vs. dedicated CSM with nothing between",
+      "Implementation complexity: Enterprise tools require consultants, SMB tools too limited"
+    ],
+    "winning_strategies": [
+      "Launch at $299-599/mo sweet spot with generous limits",
+      "Offer predictable flat pricing with 'fair use' caps",
+      "Include team features from day one (5-10 seats)",
+      "Provide white-glove onboarding without ongoing CSM requirement",
+      "Target Series A-B companies and 20-100 person bootstrapped companies"
+    ],
+    "risk_factors": [
+      "Incumbents may expand mid-market offerings if successful",
+      "Sales motion: Self-serve vs light-touch sales unclear",
+      "Customer acquisition cost may be high in competitive categories",
+      "Product differentiation critical - pricing alone won't win"
+    ]
+  },
+  "ranked_opportunities": [
+    {
+      "category": "AI/ML Development Platforms",
+      "current_market": {
+        "low_end": "$99-$499/mo",
+        "high_end": "$1000+/mo"
+      },
+      "identified_gap": "Mid-market ($200-600/mo) underserved",
+      "opportunity_score": 92,
+      "gap_indicators": [
+        "Massive price jump from hobbyist to enterprise (10x+)",
+        "Mid-market companies struggle with DIY solutions",
+        "Growing AI adoption in non-tech companies",
+        "Lack of managed AI infrastructure for SMBs"
+      ],
+      "target_customers": [
+        "Series A-B startups building AI features",
+        "Digital agencies adding AI services",
+        "SaaS companies adding AI to existing products",
+        "E-commerce businesses implementing AI recommendations"
+      ],
+      "competitive_weakness": "Enterprise players focus on Fortune 500, indie tools lack reliability/scale",
+      "recommended_pricing": "$299-$599/mo (3-5 tiers from $299 to $599)",
+      "value_props_needed": [
+        "Managed model deployment and monitoring",
+        "Simple API for common AI tasks",
+        "Reasonable usage limits (100K-1M API calls/mo)",
+        "Team collaboration without enterprise complexity"
+      ]
+    },
+    {
+      "category": "No-Code Automation Tools",
+      "current_market": {
+        "low_end": "$29-$149/mo",
+        "high_end": "$500+/mo"
+      },
+      "identified_gap": "Growing teams ($75-250/mo) need more power without enterprise complexity",
+      "opportunity_score": 88,
+      "gap_indicators": [
+        "Zapier pricing jumps quickly with task volume",
+        "Power users hit limits on starter plans",
+        "Growing teams need custom integrations",
+        "Developer-friendly alternatives underpriced"
+      ],
+      "target_customers": [
+        "10-50 person companies scaling operations",
+        "Marketing agencies managing multiple clients",
+        "E-commerce businesses with complex workflows",
+        "Operations teams automating internal processes"
+      ],
+      "competitive_weakness": "Leaders charge per-task, creating unpredictable costs",
+      "recommended_pricing": "$149-$399/mo (unlimited tasks, tiered by integrations)",
+      "value_props_needed": [
+        "Unlimited task executions (fair use)",
+        "Custom integrations builder",
+        "Advanced logic and branching",
+        "Priority support and SLA guarantees"
+      ]
+    },
+    {
+      "category": "API Development & Testing",
+      "current_market": {
+        "low_end": "$0-$99/mo",
+        "high_end": "$500+/mo"
+      },
+      "identified_gap": "Professional tier ($150-400/mo) missing for growing API-first companies",
+      "opportunity_score": 85,
+      "gap_indicators": [
+        "Free tiers too limited for serious use",
+        "Enterprise tiers over-featured for growing companies",
+        "API economy growing rapidly",
+        "Developer tools market expanding"
+      ],
+      "target_customers": [
+        "API-first startups (Series A-B)",
+        "SaaS companies building public APIs",
+        "Fintech and payments companies",
+        "Developer platform companies"
+      ],
+      "competitive_weakness": "Postman focuses on testing, lacks full lifecycle management",
+      "recommended_pricing": "$199-$449/mo (tiered by team size and API requests)",
+      "value_props_needed": [
+        "Integrated testing, documentation, and monitoring",
+        "Generous API request limits (1M+ monthly)",
+        "Team collaboration with version control",
+        "Automated API contract testing"
+      ]
+    },
+    {
+      "category": "Customer Data Platforms",
+      "current_market": {
+        "low_end": "$100-$500/mo",
+        "high_end": "$2000+/mo"
+      },
+      "identified_gap": "Mid-market CDP ($400-1200/mo) with simpler setup needed",
+      "opportunity_score": 83,
+      "gap_indicators": [
+        "Enterprise CDPs have 6-12 month implementations",
+        "Mid-market needs simpler setup and maintenance",
+        "Data warehouse complexity barrier",
+        "Privacy regulations driving demand"
+      ],
+      "target_customers": [
+        "DTC brands with 50K-500K customers",
+        "SaaS companies needing better analytics",
+        "Media/content companies tracking engagement",
+        "Multi-channel retailers"
+      ],
+      "competitive_weakness": "Segment/mParticle expensive, Rudderstack requires technical setup",
+      "recommended_pricing": "$499-$999/mo (tiered by MTU: 100K, 250K, 500K)",
+      "value_props_needed": [
+        "Quick setup (days not months)",
+        "Pre-built integrations to common tools",
+        "Real-time data syncing",
+        "Simple visual interface for non-technical users"
+      ]
+    },
+    {
+      "category": "Internal Tools Builders",
+      "current_market": {
+        "low_end": "$29-$199/mo",
+        "high_end": "$1000+/mo"
+      },
+      "identified_gap": "Growing startups ($150-500/mo) need more than basic but not enterprise",
+      "opportunity_score": 80,
+      "gap_indicators": [
+        "Retool dominates but expensive for smaller teams",
+        "Many companies still using spreadsheets",
+        "Remote work increasing need for internal tools",
+        "No-code movement reducing technical barriers"
+      ],
+      "target_customers": [
+        "Operations teams at 20-100 person companies",
+        "Non-technical teams needing custom dashboards",
+        "Customer success teams building client portals",
+        "Finance/accounting teams automating workflows"
+      ],
+      "competitive_weakness": "Retool priced for engineering teams, not business users",
+      "recommended_pricing": "$199-$499/mo (tiered by apps and users: 5/10/25 apps)",
+      "value_props_needed": [
+        "Template library for common use cases",
+        "No-code first with code escape hatch",
+        "Mobile-responsive by default",
+        "Role-based access control and permissions"
+      ]
+    }
+  ],
+  "recommended_next_steps": [
+    "Deep-dive research on AI/ML development platform competitors",
+    "Interview 10-15 potential customers in top-scored categories",
+    "Build pricing comparison matrix for top 3 categories",
+    "Calculate TAM/SAM for mid-market segment in each category",
+    "Prototype MVP for highest-scoring opportunity"
+  ]
+}
