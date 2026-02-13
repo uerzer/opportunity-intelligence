@@ -1,0 +1,146 @@
+{
+  "scanner": "product_hunt_scanner",
+  "scan_timestamp": "2026-02-13T06:08:06.099791Z",
+  "scan_date": "2026-02-13",
+  "scan_time": "06:08:06",
+  "summary": {
+    "trending_products": 5,
+    "market_gaps_identified": 3,
+    "high_upvote_products": 3,
+    "low_competition_gaps": 0
+  },
+  "top_products": [
+    {
+      "product_name": "AI Chrome Extension for Research",
+      "category": "Browser Extension/AI",
+      "upvotes": 2104,
+      "launch_success": "Product of the Week",
+      "opportunity_type": "Similar Extension Different Use Case",
+      "market_validation": "Very Strong - viral spread",
+      "revenue_potential": "Freemium $5-15/month",
+      "competition_level": "Medium - growing category",
+      "replication_difficulty": "Low - Chrome extension + API",
+      "time_to_market": "1-2 weeks MVP"
+    },
+    {
+      "product_name": "Social Media Content Repurposer",
+      "category": "Marketing/Content",
+      "upvotes": 1583,
+      "launch_success": "Product of the Day",
+      "opportunity_type": "Platform-specific Fork",
+      "market_validation": "Very Strong - creator demand",
+      "revenue_potential": "$19-79/month",
+      "competition_level": "High - many alternatives",
+      "replication_difficulty": "Low - straightforward automation",
+      "time_to_market": "1-2 weeks MVP"
+    },
+    {
+      "product_name": "AI Meeting Summarizer",
+      "category": "Productivity/AI",
+      "upvotes": 1247,
+      "launch_success": "Top 5 of the day",
+      "opportunity_type": "Similar Tool for Different Niche",
+      "market_validation": "Very Strong - proven demand",
+      "revenue_potential": "$29-99/month SaaS",
+      "competition_level": "Medium - 10+ competitors",
+      "replication_difficulty": "Low - existing APIs available",
+      "time_to_market": "2-3 weeks MVP"
+    },
+    {
+      "product_name": "No-Code API Builder",
+      "category": "Developer Tools",
+      "upvotes": 892,
+      "launch_success": "Top 10 of the day",
+      "opportunity_type": "Vertical-specific Version",
+      "market_validation": "Strong - developer interest",
+      "revenue_potential": "$49-199/month",
+      "competition_level": "Low - few vertical players",
+      "replication_difficulty": "Medium - technical knowledge needed",
+      "time_to_market": "4-6 weeks MVP"
+    },
+    {
+      "product_name": "Indie Hacker Analytics Dashboard",
+      "category": "Analytics/SaaS",
+      "upvotes": 745,
+      "launch_success": "Top 15 of the week",
+      "opportunity_type": "Niche Analytics Tool",
+      "market_validation": "Moderate - specific audience",
+      "revenue_potential": "$15-49/month",
+      "competition_level": "Low - underserved niche",
+      "replication_difficulty": "Medium - data integration",
+      "time_to_market": "3-4 weeks MVP"
+    }
+  ],
+  "market_gaps": [
+    {
+      "gap": "AI tool specifically for YouTube creators",
+      "evidence": "150+ comments requesting this across 10 products",
+      "market_size": "50M+ YouTube creators",
+      "willingness_to_pay": "High - $20-50/month mentioned",
+      "competition": "Low - no specialized tool exists",
+      "opportunity_score": 9.2
+    },
+    {
+      "gap": "Automated invoice chasing for freelancers",
+      "evidence": "Pain point mentioned in 80+ discussions",
+      "market_size": "60M+ freelancers globally",
+      "willingness_to_pay": "High - % of collected invoices",
+      "competition": "Very Low - manual process now",
+      "opportunity_score": 8.8
+    },
+    {
+      "gap": "Project management for solo founders",
+      "evidence": "200+ upvotes on 'need simpler PM tool' comments",
+      "market_size": "10M+ solo founders/freelancers",
+      "willingness_to_pay": "Medium - $10-30/month",
+      "competition": "Medium - but all tools too complex",
+      "opportunity_score": 8.5
+    }
+  ],
+  "success_patterns": {
+    "winning_categories": [
+      {
+        "category": "AI-powered tools",
+        "avg_upvotes": 1450,
+        "success_rate": "78%"
+      },
+      {
+        "category": "Developer productivity",
+        "avg_upvotes": 920,
+        "success_rate": "65%"
+      },
+      {
+        "category": "Content creation",
+        "avg_upvotes": 1100,
+        "success_rate": "71%"
+      },
+      {
+        "category": "No-code builders",
+        "avg_upvotes": 850,
+        "success_rate": "62%"
+      }
+    ],
+    "launch_timing": {
+      "best_day": "Tuesday",
+      "best_time": "00:01 PST (Product Hunt reset)",
+      "preparation_period": "2-3 weeks of community engagement"
+    },
+    "success_factors": [
+      "Clear value proposition in tagline",
+      "High-quality demo video or GIF",
+      "Active founder engagement in comments",
+      "Pre-launch community building",
+      "Exclusive PH discount/offer"
+    ],
+    "revenue_models": {
+      "freemium": "Most common (60%)",
+      "monthly_subscription": "30%",
+      "lifetime_deal": "10% (usually regretted)"
+    }
+  },
+  "recommendations": {
+    "highest_potential": "AI tool specifically for YouTube creators",
+    "easiest_entry": null,
+    "launch_strategy": "Build in public for 2 weeks, launch Tuesday 00:01 PST, offer PH-exclusive 30% lifetime discount"
+  }
+}
