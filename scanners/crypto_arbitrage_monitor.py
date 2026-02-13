@@ -4,7 +4,7 @@ Tracks DEX/CEX price spreads, MEV opportunities, and cross-chain arbitrage
 
 Key Findings from Research:
 - ArbitrageScanner.io: $69-795/mo, covers 75+ CEX, 25+ DEX, 20 blockchains
-- Typical spreads: 0.3-0.8% on major pairs, 2%+ during volatility
+- Typical spreads: 0.3-0.8% on major pairs, 2+% during volatility
 - Minimum capital: $5K-10K for profitable trades after fees
 - 70% of arbitrage is bot-driven, speed is critical
 - Cross-chain opportunities exist but bridge fees/delays eat profits
@@ -78,32 +78,30 @@ def transform(data: dict, context: dict) -> dict:
             "type": "CEX-DEX Arbitrage",
             "description": "Buy cheap on CEX, sell high on DEX (or reverse)",
             "typical_spreads": "0.5-2%",
-            "execution_time": "30 seconds - 5 minutes",
-            "capital_requirement": f"${capital * 2}+ (need funds on both sides)",
-            "major_cexs": ["Binance", "Coinbase", "Kraken", "OKX", "Bybit"],
-            "major_dexs": {
-                "ethereum": ["Uniswap", "Curve", "SushiSwap"],
-                "bsc": ["PancakeSwap", "Biswap"],
-                "polygon": ["QuickSwap"]
-            },
-            "challenges": [
-                "CEX withdrawal delays (minutes to hours)",
-                "Network congestion increases gas fees",
-                "Price movement during transfer",
-                "KYC/withdrawal limits on CEX"
+            "execution_speed": "minutes",
+            "capital_requirement": f"${capital}+",
+            "friction_points": [
+                "CEX withdrawal times (5-30 min)",
+                "Network congestion fees",
+                "CEX withdrawal fees ($5-50)",
+                "KYC/compliance requirements"
             ],
-            "research_insight": "Top 3 searchers capture ~75% of CEX-DEX arbitrage value ($233.8M across 7.2M trades, Aug 2023-Mar 2025)",
-            "profit_potential": {
-                "spread": "1%",
+            "best_opportunities": {
+                "high_volatility_tokens": "Newly listed tokens, low liquidity pairs",
+                "regional_price_gaps": "Asia vs US market hours",
+                "event_driven": "Token listings, delistings, airdrops"
+            },
+            "profit_calc": {
+                "spread": "1.5%",
                 "trade_size": capital,
-                "gross_profit": capital * 0.01,
-                "costs": {
-                    "cex_fee": "0.1%",
-                    "withdrawal_fee": "$10-30",
-                    "gas": "$20-100",
-                    "dex_fee": "0.3%"
+                "gross_profit": capital * 0.015,
+                "fees": {
+                    "cex_withdrawal": "$20-50",
+                    "dex_swap": "0.3%",
+                    "gas": "$10-100",
+                    "slippage": "0.5-1%"
                 },
-                "net_profit_estimate": f"${capital * 0.005:.2f} if executed fast"
+                "net_profit_range": f"${capital * 0.005:.2f} - ${capital * 0.01:.2f}"
             }
         }
         opportunities.append(cex_dex)
@@ -112,167 +110,163 @@ def transform(data: dict, context: dict) -> dict:
     if focus in ["cross_chain", "all"]:
         cross_chain = {
             "type": "Cross-Chain Arbitrage",
-            "description": "Exploit price differences between same token on different chains",
-            "typical_spreads": "0.5-3% during volatility",
-            "execution_time": "minutes to hours (bridge dependent)",
-            "examples": [
-                "ETH on Ethereum ($2000) vs ETH on Arbitrum ($2008)",
-                "USDC depegs on newer chains with less liquidity"
-            ],
+            "description": "Price differences for same asset on different chains",
+            "typical_spreads": "1-3%",
+            "execution_speed": "10-30 minutes",
+            "capital_requirement": f"${capital}+",
             "bridge_options": [
-                {"name": "Official bridges", "speed": "7 days (Optimism) to hours", "cost": "gas only", "risk": "low"},
-                {"name": "Fast bridges (Across, Stargate)", "speed": "minutes", "cost": "0.05-0.1% fee", "risk": "medium"},
-                {"name": "Intent-based (Across Protocol)", "speed": "seconds-minutes", "cost": "variable", "risk": "medium"}
+                "Stargate (LayerZero) - 0.1-0.3% fee",
+                "Hop Protocol - 0.04-0.3% fee",
+                "Synapse - 0.05-0.5% fee",
+                "cBridge (Celer) - 0.04-0.3% fee"
             ],
-            "capital_strategy": "Pre-position capital on 5-10 chains to avoid bridge delays",
-            "best_opportunities": "High volatility periods when price discovery lags across chains",
+            "challenges": {
+                "bridge_fees": "0.1-0.5% + gas on both chains",
+                "bridge_delay": "10-30 minutes for finality",
+                "liquidity_constraints": "Large trades may exceed bridge capacity",
+                "smart_contract_risk": "Bridge exploits are common"
+            },
+            "example_opportunities": {
+                "usdc_cross_chain": "USDC.e on Arbitrum vs native USDC on Optimism",
+                "eth_wrapped": "WETH price differences across L2s",
+                "stable_depeg": "Temporary depegs create arb windows"
+            },
             "profit_calc": {
-                "spread": "1.5%",
+                "spread": "2%",
                 "trade_size": capital,
-                "gross_profit": capital * 0.015,
-                "bridge_fee": "0.1%",
-                "gas_both_sides": "$30-80",
-                "time_risk": "High - price can move during bridge",
-                "net_profit_if_fast": f"${capital * 0.01:.2f}"
+                "gross_profit": capital * 0.02,
+                "fees": {
+                    "bridge_fee": "0.3%",
+                    "gas_origin": "$10-50",
+                    "gas_destination": "$5-30",
+                    "dex_swaps": "0.6% (both sides)"
+                },
+                "net_profit_range": f"${capital * 0.005:.2f} - ${capital * 0.012:.2f}"
             }
         }
         opportunities.append(cross_chain)
     
-    # 4. MEV Opportunities (Sandwich, Frontrun, Backrun)
+    # 4. MEV Opportunities (Advanced)
     if focus in ["mev", "all"]:
-        mev_ops = {
-            "type": "MEV Extraction",
-            "description": "Maximal Extractable Value through transaction ordering",
+        mev = {
+            "type": "MEV (Maximal Extractable Value)",
+            "description": "Front-run, back-run, or sandwich profitable transactions",
+            "typical_profit": "0.1-5% per opportunity",
+            "execution_speed": "milliseconds",
+            "capital_requirement": f"${capital * 5}+ (high capital efficiency)",
             "strategies": {
                 "sandwich_attacks": {
-                    "how": "Front-run and back-run large trades",
-                    "profit": "0.01-0.1% per victim trade",
-                    "tools": ["MEV bots on GitHub", "Flashbots", "Block builders"],
-                    "competition": "Extremely high - dominated by professional searchers",
-                    "capital": "$50K-1M+ for meaningful profits"
+                    "description": "Front-run + back-run large DEX swaps",
+                    "risk": "High (can be detected, blacklisted)",
+                    "profit": "0.5-2% per sandwich",
+                    "tools": "Flashbots, MEV-Boost, custom bots"
                 },
-                "arbitrage_backrun": {
-                    "how": "Execute arbitrage immediately after large trades create price imbalance",
-                    "profit": "0.1-2%",
-                    "requirement": "Sub-millisecond latency, co-located servers"
+                "liquidation_hunting": {
+                    "description": "Monitor lending protocols for undercollateralized positions",
+                    "risk": "Medium (competitive)",
+                    "profit": "5-15% liquidation bonus",
+                    "tools": "Aave, Compound, custom monitoring"
                 },
-                "liquidation_frontrun": {
-                    "how": "Front-run liquidation bots on lending protocols",
-                    "profit": "Liquidation bonus (typically 5-10%)",
-                    "capital": "Variable based on liquidation size"
+                "arbitrage_frontrun": {
+                    "description": "Detect pending arb txs and front-run them",
+                    "risk": "Very high (arms race)",
+                    "profit": "Variable",
+                    "tools": "Mempool monitoring, priority gas auctions"
                 }
             },
-            "reality_check": "MEV is highly competitive. Top searchers have:",
-            "competitive_advantages": [
-                "Co-located servers near validators",
-                "Direct block builder relationships",
-                "PhD-level research teams",
-                "Millions in capital",
-                "Custom infrastructure"
-            ],
-            "retail_viability": "Very Low - unless you have unique edge",
-            "github_resources": [
-                "jito-labs/mev-bot (Solana backrun)",
-                "sorasuzukidev/ethereum-bnb-mev-bot",
-                "Open-source MEV bot templates (educational)"
-            ]
+            "reality_check": {
+                "competition": "Top MEV bots capture 80%+ of opportunities",
+                "capital_required": "$50K-500K for meaningful profits",
+                "technical_barrier": "Extremely high - Rust/Go, low-latency infra",
+                "ethical_concerns": "Sandwich attacks harm retail traders",
+                "recommendation": "Not recommended for solo operators with <$100K"
+            }
         }
-        opportunities.append(mev_ops)
+        opportunities.append(mev)
     
-    # 5. Triangular Arbitrage
-    triangular = {
-        "type": "Triangular Arbitrage",
-        "description": "USDT → BTC → ETH → USDT on same exchange",
-        "spreads": "0.01-0.1% (very thin)",
-        "execution": "Must be atomic (all trades in one transaction)",
-        "competition": "Extremely high - MEV bots dominate",
-        "flash_loan_option": True,
-        "flash_loan_fee": "0.05-0.09%",
-        "viability": "Nearly impossible for retail - bots capture these in milliseconds",
-        "tools": ["Hummingbot (open source)", "3Commas", "Cryptohopper"]
-    }
-    opportunities.append(triangular)
-    
-    # Action Plan based on capital and risk tolerance
-    if capital < 5000:
-        recommendation = {
-            "status": "INSUFFICIENT_CAPITAL",
-            "message": "Research shows $5K-10K minimum needed for profitable arbitrage after fees",
-            "alternative": "Start with paper trading using ArbitrageScanner.io data to learn patterns",
-            "better_path": "Focus on AI agency services or micro-SaaS with lower capital requirements"
-        }
-    elif capital < 50000:
-        recommendation = {
-            "status": "SMALL_CAPITAL",
-            "best_strategy": "DEX-DEX arbitrage on BSC or Polygon (lower gas fees)",
-            "tools": [
-                "ArbitrageScanner.io Basic Plan ($69/mo)",
-                "TradoxVPS.com for low-latency execution",
-                "Python bot for automated execution"
-            ],
-            "expected_roi": "0.5-2% per successful trade",
-            "daily_trades": "5-20 opportunities (competitive)",
-            "monthly_profit_estimate": f"${capital * 0.10:.2f} - ${capital * 0.30:.2f} (10-30% monthly if skilled)"
-        }
-    else:
-        recommendation = {
-            "status": "ADEQUATE_CAPITAL",
-            "best_strategy": "Multi-chain approach with pre-positioned capital",
-            "allocation": {
-                "ethereum": f"${capital * 0.3:.0f} (30%)",
-                "bsc": f"${capital * 0.3:.0f} (30%)",
-                "arbitrum": f"${capital * 0.2:.0f} (20%)",
-                "reserves": f"${capital * 0.2:.0f} (20% for opportunities)"
-            },
-            "tools": [
-                "ArbitrageScanner.io Pro Plan ($99/mo)",
-                "Custom bot development",
-                "Dedicated VPS with low latency",
-                "MEV protection via Flashbots"
-            ],
-            "expected_roi": "5-15% monthly (competitive market)",
-            "path_to_100k_month": "Would need $500K-1M capital + sophisticated infrastructure"
-        }
-    
-    # Reality check for $100K/month goal
-    path_to_100k = {
-        "monthly_target": 100000,
-        "required_capital_at_10pct_monthly": 1000000,
-        "required_capital_at_5pct_monthly": 2000000,
-        "alternative_calculation": {
-            "avg_arb_profit": "1%",
-            "trades_needed_monthly": 100000 / (capital * 0.01) if capital > 0 else "N/A",
-            "trades_per_day": (100000 / (capital * 0.01)) / 30 if capital > 0 else "N/A",
-            "feasibility": "Requires institutional-level infrastructure and capital"
+    # Reality Check for Current Capital Level
+    capital_assessment = {
+        "your_capital": f"${capital}",
+        "realistic_monthly_returns": {
+            "conservative": f"${capital * 0.05:.2f} (5% monthly)",
+            "moderate": f"${capital * 0.10:.2f} (10% monthly)",
+            "aggressive": f"${capital * 0.20:.2f} (20% monthly, high risk)"
         },
-        "realistic_assessment": "Crypto arbitrage alone won't hit $100K/month unless you have $500K-1M+ capital AND sophisticated infrastructure. Better as one revenue stream among many."
+        "capital_required_for_100k_monthly": {
+            "at_5_percent": "$2,000,000",
+            "at_10_percent": "$1,000,000",
+            "at_20_percent": "$500,000"
+        },
+        "path_to_scale": [
+            "Start with $10K, target 10-15% monthly",
+            "Compound returns for 12-18 months",
+            "Build proprietary strategies and infrastructure",
+            "Scale to $100K+ capital base",
+            "Alternative: Use flash loans for zero-capital arbitrage (advanced)"
+        ]
+    }
+    
+    # Tools & Infrastructure Needed
+    infrastructure = {
+        "essential": {
+            "price_monitoring": {
+                "tools": ["ArbitrageScanner.io ($69-795/mo)", "Custom WebSocket feeds"],
+                "cost": "$100-1,000/month"
+            },
+            "execution": {
+                "tools": ["Web3.py/Ethers.js", "Private RPC nodes (Alchemy/Infura)"],
+                "cost": "$50-500/month"
+            },
+            "capital": {
+                "tools": ["DEX liquidity", "CEX accounts (KYC)"],
+                "cost": f"${capital} working capital"
+            }
+        },
+        "advanced": {
+            "flash_loans": {
+                "tools": ["Aave V3", "dYdX", "Uniswap V3 flash swaps"],
+                "benefit": "Borrow capital for single transaction, no upfront capital needed",
+                "cost": "0.05-0.09% flash loan fee"
+            },
+            "mev_protection": {
+                "tools": ["Flashbots RPC", "MEV-Blocker"],
+                "benefit": "Prevent being front-run",
+                "cost": "Free"
+            },
+            "automated_execution": {
+                "tools": ["Gelato Network", "Chainlink Automation", "Custom bots"],
+                "cost": "$100-1,000/month"
+            }
+        }
+    }
+    
+    # Next Steps
+    next_steps = {
+        "immediate_actions": [
+            "Sign up for ArbitrageScanner.io trial",
+            "Monitor DEX-DEX spreads on Ethereum/BSC for 1 week",
+            "Calculate actual net profits after all fees",
+            "Test with $100-500 to validate strategy"
+        ],
+        "30_day_plan": [
+            "Build automated monitoring system",
+            "Identify 3-5 consistently profitable pairs",
+            "Optimize gas usage and execution speed",
+            "Scale capital as strategy proves out"
+        ],
+        "reality": "Crypto arbitrage is highly competitive. Expect 5-15% monthly returns with $10K capital, not $100K monthly revenue. Consider combining with other strategies."
     }
     
     return {
-        "timestamp": datetime.utcnow().isoformat(),
-        "analysis": "Crypto Arbitrage Opportunity Scan",
-        "your_capital": capital,
-        "min_spread_threshold": min_spread,
-        "focus_area": focus,
+        "scan_timestamp": datetime.now().isoformat(),
+        "configuration": {
+            "capital": capital,
+            "min_spread": min_spread,
+            "chains": chains,
+            "focus": focus
+        },
         "opportunities": opportunities,
-        "recommendation": recommendation,
-        "path_to_100k_monthly": path_to_100k,
-        "key_insights": [
-            "70% of stablecoin arbitrage is bot-driven - speed is everything",
-            "Top 3 MEV searchers capture 75% of CEX-DEX arbitrage profits",
-            "Minimum $5K-10K needed for profitability after fees",
-            "Cross-chain arbitrage highest during volatility but bridge delays kill many opportunities",
-            "MEV dominated by professionals with co-located infrastructure",
-            "BSC and Polygon offer lower gas fees than Ethereum for smaller capital",
-            "ArbitrageScanner.io users report 50%+ monthly returns (outliers, not typical)",
-            "For $100K/month target, arbitrage should be ONE stream, not the only one"
-        ],
-        "next_steps": [
-            "1. Start with ArbitrageScanner.io 1-day free trial to see real opportunities",
-            "2. Paper trade for 2 weeks to understand spread patterns",
-            "3. Build custom bot using open-source MEV bot templates from GitHub",
-            "4. Start with $10K on low-gas chains (BSC/Polygon) to minimize fees",
-            "5. Scale up as you prove consistent 5-10% monthly returns",
-            "6. Meanwhile, build AI agency or SaaS for scalable revenue beyond arbitrage"
-        ]
+        "capital_assessment": capital_assessment,
+        "infrastructure": infrastructure,
+        "next_steps": next_steps
     }
