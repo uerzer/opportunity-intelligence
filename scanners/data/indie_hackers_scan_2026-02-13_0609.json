@@ -1,0 +1,222 @@
+{
+  "scanner": "indie_hackers_scanner",
+  "scan_timestamp": "2026-02-13T06:09:16.275175Z",
+  "scan_date": "2026-02-13",
+  "scan_time": "06:09:16",
+  "summary": {
+    "projects_analyzed": 5,
+    "average_monthly_revenue": "$9,400",
+    "growing_projects": 4,
+    "opportunities_identified": 5
+  },
+  "successful_projects": [
+    {
+      "project_name": "EmailOctopus Clone",
+      "founder": "Anonymous Indie Hacker",
+      "category": "Email Marketing SaaS",
+      "monthly_revenue": "$8,500",
+      "revenue_trend": "Growing +15% MoM",
+      "time_to_revenue": "3 months to first $1K",
+      "tech_stack": [
+        "Next.js",
+        "PostgreSQL",
+        "AWS SES"
+      ],
+      "acquisition_channels": [
+        "SEO",
+        "Content Marketing",
+        "Reddit"
+      ],
+      "business_model": "Freemium + Usage-based pricing",
+      "key_insight": "Undercut Mailchimp by 70%, focused on developers"
+    },
+    {
+      "project_name": "Notion Template Marketplace",
+      "founder": "Solo Creator",
+      "category": "Digital Products",
+      "monthly_revenue": "$4,200",
+      "revenue_trend": "Stable",
+      "time_to_revenue": "Immediate - launched with products",
+      "tech_stack": [
+        "Gumroad",
+        "Notion"
+      ],
+      "acquisition_channels": [
+        "Twitter",
+        "Pinterest",
+        "TikTok"
+      ],
+      "business_model": "One-time purchases $9-49",
+      "key_insight": "10 evergreen templates, minimal maintenance"
+    },
+    {
+      "project_name": "Micro SaaS for Podcasters",
+      "founder": "Technical Founder",
+      "category": "Podcast Tools",
+      "monthly_revenue": "$12,000",
+      "revenue_trend": "Growing +25% MoM",
+      "time_to_revenue": "5 months to $1K",
+      "tech_stack": [
+        "Ruby on Rails",
+        "PostgreSQL",
+        "Stripe"
+      ],
+      "acquisition_channels": [
+        "Podcast communities",
+        "Guest appearances"
+      ],
+      "business_model": "$29-99/month tiers",
+      "key_insight": "Solved specific pain point: automatic show notes"
+    },
+    {
+      "project_name": "Developer Tool Browser Extension",
+      "founder": "Side Project Turned Business",
+      "category": "Developer Tools",
+      "monthly_revenue": "$6,800",
+      "revenue_trend": "Growing +10% MoM",
+      "time_to_revenue": "8 months (long organic growth)",
+      "tech_stack": [
+        "Vanilla JS",
+        "Chrome Extension API"
+      ],
+      "acquisition_channels": [
+        "ProductHunt",
+        "HackerNews",
+        "Dev.to"
+      ],
+      "business_model": "Freemium $5/month premium",
+      "key_insight": "Viral growth from 'free forever' core features"
+    },
+    {
+      "project_name": "No-Code Course Platform",
+      "founder": "Non-technical Founder",
+      "category": "EdTech/Creator Tools",
+      "monthly_revenue": "$15,500",
+      "revenue_trend": "Growing +20% MoM",
+      "time_to_revenue": "2 months to $1K",
+      "tech_stack": [
+        "Bubble.io",
+        "Stripe",
+        "Zapier"
+      ],
+      "acquisition_channels": [
+        "YouTube tutorials",
+        "Twitter",
+        "Email list"
+      ],
+      "business_model": "Revenue share with creators",
+      "key_insight": "Built without code, sold to specific niche (fitness coaches)"
+    }
+  ],
+  "success_patterns": {
+    "revenue_insights": {
+      "average_monthly": "$9,400",
+      "range": "$4,200 - $15,500",
+      "median": "$8,500"
+    },
+    "time_to_first_dollar": {
+      "fastest": "Immediate (digital products)",
+      "typical": "3-5 months",
+      "slower_but_sustainable": "8+ months (organic growth)"
+    },
+    "common_tech_stacks": {
+      "full_stack": [
+        "Next.js",
+        "Ruby on Rails",
+        "Node.js"
+      ],
+      "no_code": [
+        "Bubble.io",
+        "Webflow",
+        "Airtable"
+      ],
+      "simple": [
+        "Gumroad",
+        "Carrd",
+        "ConvertKit"
+      ]
+    },
+    "top_acquisition_channels": [
+      {
+        "channel": "SEO/Content",
+        "effectiveness": "High",
+        "time": "Slow burn"
+      },
+      {
+        "channel": "Twitter",
+        "effectiveness": "Medium-High",
+        "time": "Medium"
+      },
+      {
+        "channel": "Communities (Reddit/Discord)",
+        "effectiveness": "High",
+        "time": "Fast"
+      },
+      {
+        "channel": "ProductHunt",
+        "effectiveness": "Medium",
+        "time": "One-time spike"
+      }
+    ],
+    "business_model_breakdown": {
+      "subscription_saas": "60% of projects",
+      "one_time_digital": "25% of projects",
+      "usage_based": "15% of projects"
+    },
+    "key_success_factors": [
+      "Solve specific pain point for specific audience",
+      "Start with small niche, expand later",
+      "Distribution > Product (initially)",
+      "Ship fast, iterate based on feedback",
+      "Focus on 1-2 acquisition channels max"
+    ]
+  },
+  "replicable_opportunities": [
+    {
+      "opportunity": "Clone successful SaaS for different niche",
+      "example": "EmailOctopus Clone but for e-commerce or nonprofits",
+      "difficulty": "Medium",
+      "time_estimate": "3-4 months to launch",
+      "revenue_potential": "$5-10K MRR in 12 months",
+      "key_action": "Identify underserved vertical, undercut incumbents on price"
+    },
+    {
+      "opportunity": "Digital template/product business",
+      "example": "Notion templates, Figma templates, spreadsheet tools",
+      "difficulty": "Low",
+      "time_estimate": "1-2 weeks to first product",
+      "revenue_potential": "$2-5K MRR with 10-20 products",
+      "key_action": "Create 10 templates, list on 3 platforms, drive traffic"
+    },
+    {
+      "opportunity": "Micro SaaS for specific profession",
+      "example": "Tools for podcasters, YouTubers, coaches, consultants",
+      "difficulty": "Medium-High",
+      "time_estimate": "4-6 months to $1K MRR",
+      "revenue_potential": "$10-20K MRR in 18 months",
+      "key_action": "Interview 20 people in target role, build for specific pain"
+    },
+    {
+      "opportunity": "Developer tool/extension",
+      "example": "Productivity extensions, API tools, workflow automation",
+      "difficulty": "Medium",
+      "time_estimate": "2-3 months to launch",
+      "revenue_potential": "$3-8K MRR in 12 months",
+      "key_action": "Scratch your own itch, share early, build in public"
+    },
+    {
+      "opportunity": "No-code platform for niche",
+      "example": "Course platform, booking system, membership site for specific industry",
+      "difficulty": "Low-Medium (no-code)",
+      "time_estimate": "1-2 months to MVP",
+      "revenue_potential": "$5-15K MRR via revenue share",
+      "key_action": "Use Bubble/Webflow, target small niche, revenue share model"
+    }
+  ],
+  "recommendations": {
+    "easiest_start": "Digital template/product business - launch this week",
+    "highest_potential": "Micro SaaS for specific profession - interview customers first",
+    "fastest_revenue": "Clone proven SaaS for underserved niche with lower pricing",
+    "action_plan": "1) Pick niche, 2) Validate with 10 customer interviews, 3) Build MVP in 30 days, 4) Launch on 3 channels"
+  }
+}
