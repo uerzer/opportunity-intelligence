@@ -124,8 +124,8 @@ def transform(data: dict, context: dict) -> dict:
                     "What would make you switch next week vs. in 6 months?"
                 ],
                 "what_NOT_to_ask": [
-                    "Would you use this?" (They'll say yes to be nice)",
-                    "Do you like my idea?" (Opinion, not commitment)",
+                    "Would you use this? (They'll say yes to be nice)",
+                    "Do you like my idea? (Opinion, not commitment)",
                     "Describing your solution upfront (You're biasing them)"
                 ],
                 "what_to_listen_for": {
