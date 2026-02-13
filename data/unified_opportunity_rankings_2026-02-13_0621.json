@@ -1,0 +1,788 @@
+{
+  "timestamp": "2026-02-13T06:21:36.513397",
+  "total_opportunities": 12,
+  "scoring_weights": {
+    "market_attractiveness": 25,
+    "revenue_potential": 20,
+    "execution_feasibility": 20,
+    "competitive_advantage": 15,
+    "risk_mitigation": 10,
+    "strategic_fit": 10
+  },
+  "opportunities": [
+    {
+      "type": "Pricing Gap Opportunity",
+      "title": "AI/ML Development Platforms",
+      "description": "Mid-market ($200-600/mo) underserved (Opportunity score: 92/100, $299-$599/mo (3-5 tiers from $299 to $599))",
+      "scores": {
+        "market_attractiveness": 9.2,
+        "revenue_potential": 9.2,
+        "execution_feasibility": 6,
+        "competitive_advantage": 9.2,
+        "risk_mitigation": 7,
+        "strategic_fit": 8
+      },
+      "raw_data": {
+        "category": "AI/ML Development Platforms",
+        "current_market": {
+          "low_end": "$99-$499/mo",
+          "high_end": "$1000+/mo"
+        },
+        "identified_gap": "Mid-market ($200-600/mo) underserved",
+        "opportunity_score": 92,
+        "gap_indicators": [
+          "Massive price jump from hobbyist to enterprise (10x+)",
+          "Mid-market companies struggle with DIY solutions",
+          "Growing AI adoption in non-tech companies",
+          "Lack of managed AI infrastructure for SMBs"
+        ],
+        "target_customers": [
+          "Series A-B startups building AI features",
+          "Digital agencies adding AI services",
+          "SaaS companies adding AI to existing products",
+          "E-commerce businesses implementing AI recommendations"
+        ],
+        "competitive_weakness": "Enterprise players focus on Fortune 500, indie tools lack reliability/scale",
+        "recommended_pricing": "$299-$599/mo (3-5 tiers from $299 to $599)",
+        "value_props_needed": [
+          "Managed model deployment and monitoring",
+          "Simple API for common AI tasks",
+          "Reasonable usage limits (100K-1M API calls/mo)",
+          "Team collaboration without enterprise complexity"
+        ]
+      },
+      "weighted_score": 82.2
+    },
+    {
+      "type": "Pricing Gap Opportunity",
+      "title": "No-Code Automation Tools",
+      "description": "Growing teams ($75-250/mo) need more power without enterprise complexity (Opportunity score: 88/100, $149-$399/mo (unlimited tasks, tiered by integrations))",
+      "scores": {
+        "market_attractiveness": 8.8,
+        "revenue_potential": 8.8,
+        "execution_feasibility": 6,
+        "competitive_advantage": 8.8,
+        "risk_mitigation": 7,
+        "strategic_fit": 8
+      },
+      "raw_data": {
+        "category": "No-Code Automation Tools",
+        "current_market": {
+          "low_end": "$29-$149/mo",
+          "high_end": "$500+/mo"
+        },
+        "identified_gap": "Growing teams ($75-250/mo) need more power without enterprise complexity",
+        "opportunity_score": 88,
+        "gap_indicators": [
+          "Zapier pricing jumps quickly with task volume",
+          "Power users hit limits on starter plans",
+          "Growing teams need custom integrations",
+          "Developer-friendly alternatives underpriced"
+        ],
+        "target_customers": [
+          "10-50 person companies scaling operations",
+          "Marketing agencies managing multiple clients",
+          "E-commerce businesses with complex workflows",
+          "Operations teams automating internal processes"
+        ],
+        "competitive_weakness": "Leaders charge per-task, creating unpredictable costs",
+        "recommended_pricing": "$149-$399/mo (unlimited tasks, tiered by integrations)",
+        "value_props_needed": [
+          "Unlimited task executions (fair use)",
+          "Custom integrations builder",
+          "Advanced logic and branching",
+          "Priority support and SLA guarantees"
+        ]
+      },
+      "weighted_score": 79.80000000000001
+    },
+    {
+      "type": "Pricing Gap Opportunity",
+      "title": "API Development & Testing",
+      "description": "Professional tier ($150-400/mo) missing for growing API-first companies (Opportunity score: 85/100, $199-$449/mo (tiered by team size and API requests))",
+      "scores": {
+        "market_attractiveness": 8.5,
+        "revenue_potential": 8.5,
+        "execution_feasibility": 6,
+        "competitive_advantage": 8.5,
+        "risk_mitigation": 7,
+        "strategic_fit": 8
+      },
+      "raw_data": {
+        "category": "API Development & Testing",
+        "current_market": {
+          "low_end": "$0-$99/mo",
+          "high_end": "$500+/mo"
+        },
+        "identified_gap": "Professional tier ($150-400/mo) missing for growing API-first companies",
+        "opportunity_score": 85,
+        "gap_indicators": [
+          "Free tiers too limited for serious use",
+          "Enterprise tiers over-featured for growing companies",
+          "API economy growing rapidly",
+          "Developer tools market expanding"
+        ],
+        "target_customers": [
+          "API-first startups (Series A-B)",
+          "SaaS companies building public APIs",
+          "Fintech and payments companies",
+          "Developer platform companies"
+        ],
+        "competitive_weakness": "Postman focuses on testing, lacks full lifecycle management",
+        "recommended_pricing": "$199-$449/mo (tiered by team size and API requests)",
+        "value_props_needed": [
+          "Integrated testing, documentation, and monitoring",
+          "Generous API request limits (1M+ monthly)",
+          "Team collaboration with version control",
+          "Automated API contract testing"
+        ]
+      },
+      "weighted_score": 78.0
+    },
+    {
+      "type": "Pricing Gap Opportunity",
+      "title": "Customer Data Platforms",
+      "description": "Mid-market CDP ($400-1200/mo) with simpler setup needed (Opportunity score: 83/100, $499-$999/mo (tiered by MTU: 100K, 250K, 500K))",
+      "scores": {
+        "market_attractiveness": 8.3,
+        "revenue_potential": 8.3,
+        "execution_feasibility": 6,
+        "competitive_advantage": 8.3,
+        "risk_mitigation": 7,
+        "strategic_fit": 8
+      },
+      "raw_data": {
+        "category": "Customer Data Platforms",
+        "current_market": {
+          "low_end": "$100-$500/mo",
+          "high_end": "$2000+/mo"
+        },
+        "identified_gap": "Mid-market CDP ($400-1200/mo) with simpler setup needed",
+        "opportunity_score": 83,
+        "gap_indicators": [
+          "Enterprise CDPs have 6-12 month implementations",
+          "Mid-market needs simpler setup and maintenance",
+          "Data warehouse complexity barrier",
+          "Privacy regulations driving demand"
+        ],
+        "target_customers": [
+          "DTC brands with 50K-500K customers",
+          "SaaS companies needing better analytics",
+          "Media/content companies tracking engagement",
+          "Multi-channel retailers"
+        ],
+        "competitive_weakness": "Segment/mParticle expensive, Rudderstack requires technical setup",
+        "recommended_pricing": "$499-$999/mo (tiered by MTU: 100K, 250K, 500K)",
+        "value_props_needed": [
+          "Quick setup (days not months)",
+          "Pre-built integrations to common tools",
+          "Real-time data syncing",
+          "Simple visual interface for non-technical users"
+        ]
+      },
+      "weighted_score": 76.80000000000001
+    },
+    {
+      "type": "Pricing Gap Opportunity",
+      "title": "Internal Tools Builders",
+      "description": "Growing startups ($150-500/mo) need more than basic but not enterprise (Opportunity score: 80/100, $199-$499/mo (tiered by apps and users: 5/10/25 apps))",
+      "scores": {
+        "market_attractiveness": 8.0,
+        "revenue_potential": 8.0,
+        "execution_feasibility": 6,
+        "competitive_advantage": 8.0,
+        "risk_mitigation": 7,
+        "strategic_fit": 8
+      },
+      "raw_data": {
+        "category": "Internal Tools Builders",
+        "current_market": {
+          "low_end": "$29-$199/mo",
+          "high_end": "$1000+/mo"
+        },
+        "identified_gap": "Growing startups ($150-500/mo) need more than basic but not enterprise",
+        "opportunity_score": 80,
+        "gap_indicators": [
+          "Retool dominates but expensive for smaller teams",
+          "Many companies still using spreadsheets",
+          "Remote work increasing need for internal tools",
+          "No-code movement reducing technical barriers"
+        ],
+        "target_customers": [
+          "Operations teams at 20-100 person companies",
+          "Non-technical teams needing custom dashboards",
+          "Customer success teams building client portals",
+          "Finance/accounting teams automating workflows"
+        ],
+        "competitive_weakness": "Retool priced for engineering teams, not business users",
+        "recommended_pricing": "$199-$499/mo (tiered by apps and users: 5/10/25 apps)",
+        "value_props_needed": [
+          "Template library for common use cases",
+          "No-code first with code escape hatch",
+          "Mobile-responsive by default",
+          "Role-based access control and permissions"
+        ]
+      },
+      "weighted_score": 75.0
+    },
+    {
+      "type": "Micro SaaS (Validated)",
+      "title": "Mid-Market AI/ML Development Platform",
+      "description": "GO - Validate key assumptions quickly, then build if confirmed. (Score: 71.0/100, Grade: C)",
+      "scores": {
+        "market_attractiveness": 9,
+        "revenue_potential": 9,
+        "execution_feasibility": 5.5,
+        "competitive_advantage": 5,
+        "risk_mitigation": 3,
+        "strategic_fit": 6.0
+      },
+      "raw_data": {
+        "idea_name": "Mid-Market AI/ML Development Platform",
+        "total_score": 71.0,
+        "grade": "C",
+        "score_breakdown": {
+          "market_size": {
+            "raw": 9,
+            "weighted": 10.8,
+            "description": "Addressable market size (not too small, not too competitive)"
+          },
+          "problem_urgency": {
+            "raw": 8,
+            "weighted": 12.0,
+            "description": "How painful is the problem? Will customers pay to solve it?"
+          },
+          "founder_fit": {
+            "raw": 6,
+            "weighted": 6.0,
+            "description": "Domain expertise, technical ability, distribution access"
+          },
+          "time_to_revenue": {
+            "raw": 5,
+            "weighted": 6.5,
+            "description": "How quickly can you build MVP and get first paying customer?"
+          },
+          "pricing_power": {
+            "raw": 9,
+            "weighted": 10.8,
+            "description": "Can you charge $50-500/mo sustainably?"
+          },
+          "churn_risk": {
+            "raw": 7,
+            "weighted": 7.0,
+            "description": "How sticky is the product? Low churn = compounding growth"
+          },
+          "distribution_ease": {
+            "raw": 6,
+            "weighted": 7.2,
+            "description": "Can you reach customers without expensive marketing?"
+          },
+          "competition_moat": {
+            "raw": 6,
+            "weighted": 4.8,
+            "description": "Defensibility through network effects, data, niche, or execution"
+          },
+          "automation_potential": {
+            "raw": 7,
+            "weighted": 3.5,
+            "description": "Can you run it with minimal human intervention?"
+          },
+          "exit_potential": {
+            "raw": 8,
+            "weighted": 2.4,
+            "description": "Would strategic buyers acquire this? (bonus points)"
+          }
+        },
+        "recommendation": "GO - Validate key assumptions quickly, then build if confirmed.",
+        "context": {
+          "pricing_gap_score": "92/100 from pricing tracker",
+          "target_market": "Series A-B startups, digital agencies, SaaS companies",
+          "recommended_pricing": "$299-599/mo with 3-5 tiers",
+          "key_value_prop": "Managed deployment/monitoring, simple API, team collaboration",
+          "competitive_advantage": "Mid-market focus vs enterprise complexity"
+        },
+        "timestamp": "2026-02-13T06:18:15.583258Z"
+      },
+      "weighted_score": 68.0
+    },
+    {
+      "type": "Micro SaaS (Validated)",
+      "title": "No-Code Automation Platform (Unlimited Tasks)",
+      "description": "GO - Validate key assumptions quickly, then build if confirmed. (Score: 70.3/100, Grade: C)",
+      "scores": {
+        "market_attractiveness": 8,
+        "revenue_potential": 8,
+        "execution_feasibility": 7.0,
+        "competitive_advantage": 5,
+        "risk_mitigation": 4,
+        "strategic_fit": 6.5
+      },
+      "raw_data": {
+        "idea_name": "No-Code Automation Platform (Unlimited Tasks)",
+        "total_score": 70.3,
+        "grade": "C",
+        "score_breakdown": {
+          "market_size": {
+            "raw": 8,
+            "weighted": 9.6,
+            "description": "Addressable market size (not too small, not too competitive)"
+          },
+          "problem_urgency": {
+            "raw": 7,
+            "weighted": 10.5,
+            "description": "How painful is the problem? Will customers pay to solve it?"
+          },
+          "founder_fit": {
+            "raw": 7,
+            "weighted": 7.0,
+            "description": "Domain expertise, technical ability, distribution access"
+          },
+          "time_to_revenue": {
+            "raw": 7,
+            "weighted": 9.1,
+            "description": "How quickly can you build MVP and get first paying customer?"
+          },
+          "pricing_power": {
+            "raw": 8,
+            "weighted": 9.6,
+            "description": "Can you charge $50-500/mo sustainably?"
+          },
+          "churn_risk": {
+            "raw": 6,
+            "weighted": 6.0,
+            "description": "How sticky is the product? Low churn = compounding growth"
+          },
+          "distribution_ease": {
+            "raw": 7,
+            "weighted": 8.4,
+            "description": "Can you reach customers without expensive marketing?"
+          },
+          "competition_moat": {
+            "raw": 5,
+            "weighted": 4.0,
+            "description": "Defensibility through network effects, data, niche, or execution"
+          },
+          "automation_potential": {
+            "raw": 8,
+            "weighted": 4.0,
+            "description": "Can you run it with minimal human intervention?"
+          },
+          "exit_potential": {
+            "raw": 7,
+            "weighted": 2.1,
+            "description": "Would strategic buyers acquire this? (bonus points)"
+          }
+        },
+        "recommendation": "GO - Validate key assumptions quickly, then build if confirmed.",
+        "context": {
+          "pricing_gap_score": "88/100 from pricing tracker",
+          "target_market": "Growing startups, operations teams",
+          "recommended_pricing": "$149-399/mo unlimited tasks",
+          "key_value_prop": "Eliminate per-task anxiety, generous limits",
+          "competitive_advantage": "Flat pricing vs usage-based incumbents"
+        },
+        "timestamp": "2026-02-13T06:18:15.583290Z"
+      },
+      "weighted_score": 68.0
+    },
+    {
+      "type": "Micro SaaS (Validated)",
+      "title": "Business-User Internal Tools Builder",
+      "description": "CAUTIOUS GO - Needs significant de-risking before committing. (Score: 68.8/100, Grade: C)",
+      "scores": {
+        "market_attractiveness": 8,
+        "revenue_potential": 8,
+        "execution_feasibility": 6.5,
+        "competitive_advantage": 5,
+        "risk_mitigation": 3,
+        "strategic_fit": 6.5
+      },
+      "raw_data": {
+        "idea_name": "Business-User Internal Tools Builder",
+        "total_score": 68.8,
+        "grade": "C",
+        "score_breakdown": {
+          "market_size": {
+            "raw": 8,
+            "weighted": 9.6,
+            "description": "Addressable market size (not too small, not too competitive)"
+          },
+          "problem_urgency": {
+            "raw": 7,
+            "weighted": 10.5,
+            "description": "How painful is the problem? Will customers pay to solve it?"
+          },
+          "founder_fit": {
+            "raw": 7,
+            "weighted": 7.0,
+            "description": "Domain expertise, technical ability, distribution access"
+          },
+          "time_to_revenue": {
+            "raw": 6,
+            "weighted": 7.8,
+            "description": "How quickly can you build MVP and get first paying customer?"
+          },
+          "pricing_power": {
+            "raw": 8,
+            "weighted": 9.6,
+            "description": "Can you charge $50-500/mo sustainably?"
+          },
+          "churn_risk": {
+            "raw": 7,
+            "weighted": 7.0,
+            "description": "How sticky is the product? Low churn = compounding growth"
+          },
+          "distribution_ease": {
+            "raw": 6,
+            "weighted": 7.2,
+            "description": "Can you reach customers without expensive marketing?"
+          },
+          "competition_moat": {
+            "raw": 5,
+            "weighted": 4.0,
+            "description": "Defensibility through network effects, data, niche, or execution"
+          },
+          "automation_potential": {
+            "raw": 8,
+            "weighted": 4.0,
+            "description": "Can you run it with minimal human intervention?"
+          },
+          "exit_potential": {
+            "raw": 7,
+            "weighted": 2.1,
+            "description": "Would strategic buyers acquire this? (bonus points)"
+          }
+        },
+        "recommendation": "CAUTIOUS GO - Needs significant de-risking before committing.",
+        "context": {
+          "pricing_gap_score": "80/100 from pricing tracker",
+          "target_market": "Operations teams, non-technical business users",
+          "recommended_pricing": "$199-499/mo per workspace",
+          "key_value_prop": "No SQL required, drag-drop for business users",
+          "competitive_advantage": "Business-user focus vs Retool engineering focus"
+        },
+        "timestamp": "2026-02-13T06:18:15.583384Z"
+      },
+      "weighted_score": 66.0
+    },
+    {
+      "type": "Micro SaaS (Validated)",
+      "title": "API Development & Testing Lifecycle Platform",
+      "description": "GO - Validate key assumptions quickly, then build if confirmed. (Score: 73.9/100, Grade: C)",
+      "scores": {
+        "market_attractiveness": 7,
+        "revenue_potential": 8,
+        "execution_feasibility": 7.0,
+        "competitive_advantage": 5,
+        "risk_mitigation": 2,
+        "strategic_fit": 7.0
+      },
+      "raw_data": {
+        "idea_name": "API Development & Testing Lifecycle Platform",
+        "total_score": 73.9,
+        "grade": "C",
+        "score_breakdown": {
+          "market_size": {
+            "raw": 7,
+            "weighted": 8.4,
+            "description": "Addressable market size (not too small, not too competitive)"
+          },
+          "problem_urgency": {
+            "raw": 8,
+            "weighted": 12.0,
+            "description": "How painful is the problem? Will customers pay to solve it?"
+          },
+          "founder_fit": {
+            "raw": 8,
+            "weighted": 8.0,
+            "description": "Domain expertise, technical ability, distribution access"
+          },
+          "time_to_revenue": {
+            "raw": 6,
+            "weighted": 7.8,
+            "description": "How quickly can you build MVP and get first paying customer?"
+          },
+          "pricing_power": {
+            "raw": 8,
+            "weighted": 9.6,
+            "description": "Can you charge $50-500/mo sustainably?"
+          },
+          "churn_risk": {
+            "raw": 8,
+            "weighted": 8.0,
+            "description": "How sticky is the product? Low churn = compounding growth"
+          },
+          "distribution_ease": {
+            "raw": 7,
+            "weighted": 8.4,
+            "description": "Can you reach customers without expensive marketing?"
+          },
+          "competition_moat": {
+            "raw": 6,
+            "weighted": 4.8,
+            "description": "Defensibility through network effects, data, niche, or execution"
+          },
+          "automation_potential": {
+            "raw": 9,
+            "weighted": 4.5,
+            "description": "Can you run it with minimal human intervention?"
+          },
+          "exit_potential": {
+            "raw": 8,
+            "weighted": 2.4,
+            "description": "Would strategic buyers acquire this? (bonus points)"
+          }
+        },
+        "recommendation": "GO - Validate key assumptions quickly, then build if confirmed.",
+        "context": {
+          "pricing_gap_score": "85/100 from pricing tracker",
+          "target_market": "API-first companies, backend engineering teams",
+          "recommended_pricing": "$199-449/mo full lifecycle",
+          "key_value_prop": "Design \u2192 Test \u2192 Mock \u2192 Monitor in one platform",
+          "competitive_advantage": "Unified lifecycle vs fragmented point solutions"
+        },
+        "timestamp": "2026-02-13T06:18:15.583308Z"
+      },
+      "weighted_score": 64.0
+    },
+    {
+      "type": "Micro SaaS (Validated)",
+      "title": "AI Agency Productized Service Platform",
+      "description": "CAUTIOUS GO - Needs significant de-risking before committing. (Score: 63.5/100, Grade: D)",
+      "scores": {
+        "market_attractiveness": 7,
+        "revenue_potential": 7,
+        "execution_feasibility": 7.0,
+        "competitive_advantage": 5,
+        "risk_mitigation": 5,
+        "strategic_fit": 4.5
+      },
+      "raw_data": {
+        "idea_name": "AI Agency Productized Service Platform",
+        "total_score": 63.5,
+        "grade": "D",
+        "score_breakdown": {
+          "market_size": {
+            "raw": 7,
+            "weighted": 8.4,
+            "description": "Addressable market size (not too small, not too competitive)"
+          },
+          "problem_urgency": {
+            "raw": 6,
+            "weighted": 9.0,
+            "description": "How painful is the problem? Will customers pay to solve it?"
+          },
+          "founder_fit": {
+            "raw": 6,
+            "weighted": 6.0,
+            "description": "Domain expertise, technical ability, distribution access"
+          },
+          "time_to_revenue": {
+            "raw": 8,
+            "weighted": 10.4,
+            "description": "How quickly can you build MVP and get first paying customer?"
+          },
+          "pricing_power": {
+            "raw": 7,
+            "weighted": 8.4,
+            "description": "Can you charge $50-500/mo sustainably?"
+          },
+          "churn_risk": {
+            "raw": 5,
+            "weighted": 5.0,
+            "description": "How sticky is the product? Low churn = compounding growth"
+          },
+          "distribution_ease": {
+            "raw": 8,
+            "weighted": 9.6,
+            "description": "Can you reach customers without expensive marketing?"
+          },
+          "competition_moat": {
+            "raw": 4,
+            "weighted": 3.2,
+            "description": "Defensibility through network effects, data, niche, or execution"
+          },
+          "automation_potential": {
+            "raw": 4,
+            "weighted": 2.0,
+            "description": "Can you run it with minimal human intervention?"
+          },
+          "exit_potential": {
+            "raw": 5,
+            "weighted": 1.5,
+            "description": "Would strategic buyers acquire this? (bonus points)"
+          }
+        },
+        "recommendation": "CAUTIOUS GO - Needs significant de-risking before committing.",
+        "context": {
+          "inspiration": "AI agency lead generator scanner results",
+          "target_market": "Digital agencies, marketing firms looking to add AI services",
+          "recommended_offering": "White-label AI chatbots, content generation, workflow automation",
+          "path_to_saas": "Start as service, identify patterns, productize into SaaS"
+        },
+        "timestamp": "2026-02-13T06:18:15.583406Z"
+      },
+      "weighted_score": 62.5
+    },
+    {
+      "type": "Micro SaaS (Validated)",
+      "title": "Viral Trend Arbitrage Platform",
+      "description": "CAUTIOUS GO - Needs significant de-risking before committing. (Score: 66.2/100, Grade: C)",
+      "scores": {
+        "market_attractiveness": 6,
+        "revenue_potential": 6,
+        "execution_feasibility": 7.5,
+        "competitive_advantage": 5,
+        "risk_mitigation": 6,
+        "strategic_fit": 7.0
+      },
+      "raw_data": {
+        "idea_name": "Viral Trend Arbitrage Platform",
+        "total_score": 66.2,
+        "grade": "C",
+        "score_breakdown": {
+          "market_size": {
+            "raw": 6,
+            "weighted": 7.2,
+            "description": "Addressable market size (not too small, not too competitive)"
+          },
+          "problem_urgency": {
+            "raw": 7,
+            "weighted": 10.5,
+            "description": "How painful is the problem? Will customers pay to solve it?"
+          },
+          "founder_fit": {
+            "raw": 7,
+            "weighted": 7.0,
+            "description": "Domain expertise, technical ability, distribution access"
+          },
+          "time_to_revenue": {
+            "raw": 8,
+            "weighted": 10.4,
+            "description": "How quickly can you build MVP and get first paying customer?"
+          },
+          "pricing_power": {
+            "raw": 6,
+            "weighted": 7.2,
+            "description": "Can you charge $50-500/mo sustainably?"
+          },
+          "churn_risk": {
+            "raw": 4,
+            "weighted": 4.0,
+            "description": "How sticky is the product? Low churn = compounding growth"
+          },
+          "distribution_ease": {
+            "raw": 8,
+            "weighted": 9.6,
+            "description": "Can you reach customers without expensive marketing?"
+          },
+          "competition_moat": {
+            "raw": 5,
+            "weighted": 4.0,
+            "description": "Defensibility through network effects, data, niche, or execution"
+          },
+          "automation_potential": {
+            "raw": 9,
+            "weighted": 4.5,
+            "description": "Can you run it with minimal human intervention?"
+          },
+          "exit_potential": {
+            "raw": 6,
+            "weighted": 1.8,
+            "description": "Would strategic buyers acquire this? (bonus points)"
+          }
+        },
+        "recommendation": "CAUTIOUS GO - Needs significant de-risking before committing.",
+        "context": {
+          "inspiration": "Viral trend detector scanner",
+          "target_market": "Content creators, social media managers, growth marketers",
+          "recommended_pricing": "$49-199/mo tiered by alert volume",
+          "key_value_prop": "Early detection of trending topics before saturation",
+          "competitive_advantage": "Speed + accuracy of trend detection"
+        },
+        "timestamp": "2026-02-13T06:18:15.583422Z"
+      },
+      "weighted_score": 62.5
+    },
+    {
+      "type": "Micro SaaS (Validated)",
+      "title": "Simplified CDP for Mid-Market",
+      "description": "CAUTIOUS GO - Needs significant de-risking before committing. (Score: 67.4/100, Grade: C)",
+      "scores": {
+        "market_attractiveness": 8,
+        "revenue_potential": 9,
+        "execution_feasibility": 4.5,
+        "competitive_advantage": 5,
+        "risk_mitigation": 1,
+        "strategic_fit": 5.5
+      },
+      "raw_data": {
+        "idea_name": "Simplified CDP for Mid-Market",
+        "total_score": 67.4,
+        "grade": "C",
+        "score_breakdown": {
+          "market_size": {
+            "raw": 8,
+            "weighted": 9.6,
+            "description": "Addressable market size (not too small, not too competitive)"
+          },
+          "problem_urgency": {
+            "raw": 7,
+            "weighted": 10.5,
+            "description": "How painful is the problem? Will customers pay to solve it?"
+          },
+          "founder_fit": {
+            "raw": 5,
+            "weighted": 5.0,
+            "description": "Domain expertise, technical ability, distribution access"
+          },
+          "time_to_revenue": {
+            "raw": 4,
+            "weighted": 5.2,
+            "description": "How quickly can you build MVP and get first paying customer?"
+          },
+          "pricing_power": {
+            "raw": 9,
+            "weighted": 10.8,
+            "description": "Can you charge $50-500/mo sustainably?"
+          },
+          "churn_risk": {
+            "raw": 9,
+            "weighted": 9.0,
+            "description": "How sticky is the product? Low churn = compounding growth"
+          },
+          "distribution_ease": {
+            "raw": 5,
+            "weighted": 6.0,
+            "description": "Can you reach customers without expensive marketing?"
+          },
+          "competition_moat": {
+            "raw": 7,
+            "weighted": 5.6,
+            "description": "Defensibility through network effects, data, niche, or execution"
+          },
+          "automation_potential": {
+            "raw": 6,
+            "weighted": 3.0,
+            "description": "Can you run it with minimal human intervention?"
+          },
+          "exit_potential": {
+            "raw": 9,
+            "weighted": 2.7,
+            "description": "Would strategic buyers acquire this? (bonus points)"
+          }
+        },
+        "recommendation": "CAUTIOUS GO - Needs significant de-risking before committing.",
+        "context": {
+          "pricing_gap_score": "83/100 from pricing tracker",
+          "target_market": "Series A-B companies with 20-100 employees",
+          "recommended_pricing": "$499-999/mo simpler setup",
+          "key_value_prop": "Quick setup vs 6-12 month enterprise implementations",
+          "competitive_advantage": "Speed to value for mid-market"
+        },
+        "timestamp": "2026-02-13T06:18:15.583323Z"
+      },
+      "weighted_score": 61.0
+    }
+  ]
+}
