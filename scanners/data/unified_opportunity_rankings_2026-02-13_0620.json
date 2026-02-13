@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-02-13T06:20:21.020028",
+  "total_opportunities": 0,
+  "scoring_weights": {
+    "market_attractiveness": 25,
+    "revenue_potential": 20,
+    "execution_feasibility": 20,
+    "competitive_advantage": 15,
+    "risk_mitigation": 10,
+    "strategic_fit": 10
+  },
+  "opportunities": []
+}
