@@ -1,0 +1,155 @@
+{
+  "generated_at": "2026-02-13 06:14 UTC",
+  "search_queries": [
+    {
+      "query": "looking for AI developer automation help",
+      "category": "business",
+      "intent": "high",
+      "channel": "reddit"
+    },
+    {
+      "query": "need AI consultant chatbot integration",
+      "category": "business",
+      "intent": "high",
+      "channel": "linkedin"
+    },
+    {
+      "query": "hiring AI agency workflow automation",
+      "category": "business",
+      "intent": "high",
+      "channel": "twitter"
+    },
+    {
+      "query": "looking for AI developer to build custom solution",
+      "category": "business",
+      "intent": "high",
+      "channel": "forums"
+    },
+    {
+      "query": "small business AI automation tools",
+      "category": "business",
+      "intent": "medium",
+      "channel": "general"
+    },
+    {
+      "query": "AI implementation consultant needed",
+      "category": "business",
+      "intent": "high",
+      "channel": "linkedin"
+    },
+    {
+      "query": "automate business processes with AI",
+      "category": "business",
+      "intent": "medium",
+      "channel": "general"
+    },
+    {
+      "query": "looking for AI developer freelance contract",
+      "category": "business",
+      "intent": "high",
+      "channel": "upwork"
+    }
+  ],
+  "analysis": {
+    "total_leads": 5,
+    "high_priority": 4,
+    "medium_priority": 0,
+    "low_priority": 1,
+    "leads": [
+      {
+        "title": "Looking for AI developer to automate our customer support",
+        "content": "We are a growing SaaS startup looking for an experienced AI developer to help us build a custom chatbot solution. Budget available. Need to start ASAP. Please DM if interested.",
+        "url": "https://reddit.com/r/forhire/example1",
+        "source": "Reddit r/forhire",
+        "published": "2026-02-13",
+        "lead_score": 96,
+        "contact_info": {
+          "has_email": false,
+          "has_url": false,
+          "platform": "Reddit r/forhire",
+          "direct_contact": false
+        },
+        "talking_points": [
+          "Custom AI chatbot development with enterprise integrations"
+        ],
+        "priority": "HIGH"
+      },
+      {
+        "title": "Hiring: AI Automation Consultant for E-commerce Integration",
+        "content": "Small business seeking AI consultant to integrate automation into our e-commerce workflow. Looking to automate inventory management and customer communications. Have $5k budget for initial project.",
+        "url": "https://linkedin.com/jobs/example2",
+        "source": "LinkedIn Jobs",
+        "published": "2026-02-12",
+        "lead_score": 81,
+        "contact_info": {
+          "has_email": false,
+          "has_url": false,
+          "platform": "LinkedIn Jobs",
+          "direct_contact": false
+        },
+        "talking_points": [
+          "Workflow automation expertise - reduce manual tasks by 70%+",
+          "Customer experience automation and support AI"
+        ],
+        "priority": "HIGH"
+      },
+      {
+        "title": "AI developer needed for document processing automation",
+        "content": "We process hundreds of documents daily and need urgent help automating this with AI. Current manual process is killing productivity. Paid project, need to start this week.",
+        "url": "https://upwork.com/jobs/example4",
+        "source": "Upwork",
+        "published": "2026-02-13",
+        "lead_score": 67,
+        "contact_info": {
+          "has_email": false,
+          "has_url": false,
+          "platform": "Upwork",
+          "direct_contact": false
+        },
+        "talking_points": [
+          "End-to-end AI solution development - from strategy to deployment",
+          "Fast turnaround with production-ready code and documentation"
+        ],
+        "priority": "HIGH"
+      },
+      {
+        "title": "Need help with AI implementation",
+        "content": "Our company wants to implement AI but not sure where to start. Looking for someone to consult and potentially build custom solutions.",
+        "url": "https://twitter.com/example3",
+        "source": "Twitter",
+        "published": "2026-02-13",
+        "lead_score": 44,
+        "contact_info": {
+          "has_email": false,
+          "has_url": false,
+          "platform": "Twitter",
+          "direct_contact": false
+        },
+        "talking_points": [
+          "End-to-end AI solution development - from strategy to deployment",
+          "Fast turnaround with production-ready code and documentation"
+        ],
+        "priority": "HIGH"
+      },
+      {
+        "title": "Exploring AI tools for small business",
+        "content": "Running a small marketing agency and exploring how AI could help automate reporting and client communications.",
+        "url": "https://reddit.com/r/smallbusiness/example5",
+        "source": "Reddit r/smallbusiness",
+        "published": "2026-02-11",
+        "lead_score": 8,
+        "contact_info": {
+          "has_email": false,
+          "has_url": false,
+          "platform": "Reddit r/smallbusiness",
+          "direct_contact": false
+        },
+        "talking_points": [
+          "Workflow automation expertise - reduce manual tasks by 70%+",
+          "Customer experience automation and support AI"
+        ],
+        "priority": "LOW"
+      }
+    ]
+  }
+}
