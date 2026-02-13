@@ -1,0 +1,228 @@
+{
+  "scanner": "viral_trend_detector",
+  "scan_timestamp": "2026-02-13T06:06:31.343441Z",
+  "scan_date": "2026-02-13",
+  "scan_time": "06:06:31",
+  "summary": {
+    "total_trends": 8,
+    "high_virality_count": 4,
+    "low_barrier_count": 0,
+    "time_critical_count": 1
+  },
+  "analysis": {
+    "total_trends_scanned": 8,
+    "top_3_opportunities": [
+      {
+        "rank": 1,
+        "trend": "OpenAI GPT Store Apps",
+        "category": "AI/App Development",
+        "virality_score": 94.8,
+        "why_now": "+680% since launch | Critical - first-mover advantage NOW",
+        "monetization": "Revenue share + premium tiers",
+        "barrier": "Low - no coding required",
+        "risk": "Medium - platform dependency",
+        "platforms": [
+          "OpenAI GPT Store"
+        ],
+        "quick_start_action": "Build 3 GPTs today (productivity, creative, business), publish to store"
+      },
+      {
+        "rank": 2,
+        "trend": "AI Avatar Generation",
+        "category": "AI/Creative Tools",
+        "virality_score": 92.5,
+        "why_now": "+450% in 7 days | High - 30-60 day window",
+        "monetization": "$15-50/user/month",
+        "barrier": "Medium - API integration required",
+        "risk": "Medium - Fast-moving trend",
+        "platforms": [
+          "TikTok",
+          "Instagram",
+          "Twitter"
+        ],
+        "quick_start_action": "Research top 3 avatar APIs, create landing page, test with $100 ad spend"
+      },
+      {
+        "rank": 3,
+        "trend": "AI Email Course Creation",
+        "category": "EdTech/AI",
+        "virality_score": 85.7,
+        "why_now": "+380% in 10 days | High - 45 day window",
+        "monetization": "$97-297 one-time or $19-49/month",
+        "barrier": "Low - templates + AI integration",
+        "risk": "Low - educational evergreen",
+        "platforms": [
+          "Twitter",
+          "LinkedIn",
+          "YouTube"
+        ],
+        "quick_start_action": "Create template pack, launch on Gumroad, share on Twitter with hooks"
+      }
+    ],
+    "category_breakdown": {
+      "AI/Creative Tools": 1,
+      "Content Creation Tools": 1,
+      "EdTech/AI": 1,
+      "Crypto/Web3": 1,
+      "AI Productivity": 1,
+      "Online Education": 1,
+      "AI/App Development": 1,
+      "Productivity Tools": 1
+    },
+    "time_sensitive_alerts": [
+      "AI Avatar Generation",
+      "AI Email Course Creation",
+      "OpenAI GPT Store Apps"
+    ]
+  },
+  "all_trends": [
+    {
+      "trend_name": "AI Avatar Generation",
+      "category": "AI/Creative Tools",
+      "virality_score": 92.5,
+      "growth_rate": "+450% in 7 days",
+      "platforms": [
+        "TikTok",
+        "Instagram",
+        "Twitter"
+      ],
+      "opportunity_type": "SaaS Product",
+      "estimated_audience": "5M+ creators",
+      "monetization_potential": "$15-50/user/month",
+      "entry_barrier": "Medium - API integration required",
+      "time_sensitivity": "High - 30-60 day window",
+      "risk_level": "Medium - Fast-moving trend"
+    },
+    {
+      "trend_name": "Micro-SaaS for Podcasters",
+      "category": "Content Creation Tools",
+      "virality_score": 78.3,
+      "growth_rate": "+220% in 14 days",
+      "platforms": [
+        "Twitter",
+        "ProductHunt",
+        "Reddit"
+      ],
+      "opportunity_type": "Niche SaaS",
+      "estimated_audience": "500K podcasters",
+      "monetization_potential": "$29-99/month",
+      "entry_barrier": "Low - proven demand",
+      "time_sensitivity": "Medium - 90 day window",
+      "risk_level": "Low - sustainable niche"
+    },
+    {
+      "trend_name": "AI Email Course Creation",
+      "category": "EdTech/AI",
+      "virality_score": 85.7,
+      "growth_rate": "+380% in 10 days",
+      "platforms": [
+        "Twitter",
+        "LinkedIn",
+        "YouTube"
+      ],
+      "opportunity_type": "Info Product + Tool",
+      "estimated_audience": "2M+ creators/educators",
+      "monetization_potential": "$97-297 one-time or $19-49/month",
+      "entry_barrier": "Low - templates + AI integration",
+      "time_sensitivity": "High - 45 day window",
+      "risk_level": "Low - educational evergreen"
+    },
+    {
+      "trend_name": "No-Code Web3 Tools",
+      "category": "Crypto/Web3",
+      "virality_score": 71.2,
+      "growth_rate": "+180% in 21 days",
+      "platforms": [
+        "Twitter",
+        "Discord",
+        "Reddit"
+      ],
+      "opportunity_type": "SaaS Platform",
+      "estimated_audience": "300K Web3 builders",
+      "monetization_potential": "$49-199/month",
+      "entry_barrier": "High - blockchain knowledge needed",
+      "time_sensitivity": "Medium - 60-90 day window",
+      "risk_level": "High - market volatility"
+    },
+    {
+      "trend_name": "ChatGPT Prompt Templates",
+      "category": "AI Productivity",
+      "virality_score": 88.4,
+      "growth_rate": "+520% in 30 days",
+      "platforms": [
+        "Google Search",
+        "Pinterest",
+        "Etsy"
+      ],
+      "opportunity_type": "Digital Products",
+      "estimated_audience": "10M+ AI users",
+      "monetization_potential": "$7-47 per template pack",
+      "entry_barrier": "Very Low - content creation only",
+      "time_sensitivity": "Medium - 60-120 day window",
+      "risk_level": "Low - proven buyer demand"
+    },
+    {
+      "trend_name": "AI Business Automation Courses",
+      "category": "Online Education",
+      "virality_score": 82.1,
+      "growth_rate": "+340% in 20 days",
+      "platforms": [
+        "Google Search",
+        "YouTube",
+        "Udemy"
+      ],
+      "opportunity_type": "Course + Community",
+      "estimated_audience": "5M+ small business owners",
+      "monetization_potential": "$197-997 per course",
+      "entry_barrier": "Medium - expertise + production",
+      "time_sensitivity": "Low - evergreen with updates",
+      "risk_level": "Very Low - sustained demand"
+    },
+    {
+      "trend_name": "OpenAI GPT Store Apps",
+      "category": "AI/App Development",
+      "virality_score": 94.8,
+      "growth_rate": "+680% since launch",
+      "platforms": [
+        "OpenAI GPT Store"
+      ],
+      "opportunity_type": "Custom GPT Applications",
+      "estimated_audience": "100M+ ChatGPT users",
+      "monetization_potential": "Revenue share + premium tiers",
+      "entry_barrier": "Low - no coding required",
+      "time_sensitivity": "Critical - first-mover advantage NOW",
+      "risk_level": "Medium - platform dependency"
+    },
+    {
+      "trend_name": "Notion Templates for AI Workflows",
+      "category": "Productivity Tools",
+      "virality_score": 76.5,
+      "growth_rate": "+290% in 30 days",
+      "platforms": [
+        "Notion",
+        "Gumroad",
+        "Twitter"
+      ],
+      "opportunity_type": "Digital Templates",
+      "estimated_audience": "20M+ Notion users",
+      "monetization_potential": "$9-49 per template",
+      "entry_barrier": "Very Low - Notion knowledge only",
+      "time_sensitivity": "Medium - 90 day optimal window",
+      "risk_level": "Very Low - proven marketplace"
+    }
+  ],
+  "recommendations": {
+    "immediate_action": "Focus on OpenAI GPT Store Apps - critical first-mover window",
+    "quick_wins": [
+      "ChatGPT Prompt Templates",
+      "Notion Templates for AI Workflows"
+    ],
+    "sustainable_plays": [
+      "Micro-SaaS for Podcasters",
+      "AI Business Automation Courses"
+    ],
+    "avoid": [
+      "No-Code Web3 Tools - high barrier and volatility for current context"
+    ]
+  }
+}
