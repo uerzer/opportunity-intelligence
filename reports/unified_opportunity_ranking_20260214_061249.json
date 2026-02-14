@@ -1,0 +1,610 @@
+{
+  "timestamp": "2026-02-14T06:12:49.751671Z",
+  "analysis": "Unified Opportunity Scoring - All Scanners",
+  "total_opportunities_analyzed": 5,
+  "average_score": 65.7,
+  "scoring_framework": {
+    "dimensions": {
+      "revenue_potential": {
+        "weight": 1.5,
+        "description": "Monthly revenue potential per customer"
+      },
+      "speed_to_revenue": {
+        "weight": 1.3,
+        "description": "How fast can we generate first dollar?"
+      },
+      "market_size": {
+        "weight": 1.0,
+        "description": "Total addressable market size"
+      },
+      "competition_level": {
+        "weight": 1.2,
+        "description": "Lower competition = higher score"
+      },
+      "validation_speed": {
+        "weight": 1.1,
+        "description": "How fast can we validate demand?"
+      },
+      "execution_complexity": {
+        "weight": 1.0,
+        "description": "Lower complexity = higher score"
+      },
+      "sustainability": {
+        "weight": 1.0,
+        "description": "Long-term viability and churn risk"
+      },
+      "trend_momentum": {
+        "weight": 1.2,
+        "description": "Is this catching fire or cooling down?"
+      },
+      "boring_factor": {
+        "weight": 1.1,
+        "description": "Unsexy = less competition = higher score"
+      },
+      "decision_speed": {
+        "weight": 1.0,
+        "description": "How fast can buyer say yes?"
+      }
+    },
+    "max_possible_score": 100,
+    "weighting": "Revenue potential and speed to revenue have highest weights"
+  },
+  "tier_summary": {
+    "tier_1_immediate_action": {
+      "score_range": "80-100",
+      "count": 0,
+      "action": "START VALIDATION THIS WEEK"
+    },
+    "tier_2_validate_soon": {
+      "score_range": "70-79",
+      "count": 1,
+      "action": "Validate within 2 weeks"
+    },
+    "tier_3_validate_later": {
+      "score_range": "60-69",
+      "count": 3,
+      "action": "Validate within 1 month"
+    },
+    "tier_4_deprioritize": {
+      "score_range": "0-59",
+      "count": 1,
+      "action": "Revisit if top tiers fail"
+    }
+  },
+  "top_10_opportunities": [
+    {
+      "opportunity": "Reddit Organic Marketing (27 Subreddits)",
+      "source_scanner": "unknown",
+      "total_score": 71.8,
+      "dimension_scores": {
+        "revenue_potential": 5,
+        "speed_to_revenue": 8,
+        "market_size": 10,
+        "competition_level": 5,
+        "validation_speed": 9,
+        "execution_complexity": 8,
+        "sustainability": 6,
+        "trend_momentum": 8,
+        "boring_factor": 4,
+        "decision_speed": 10
+      },
+      "weighted_total": 81.8,
+      "max_possible": 114.0,
+      "key_metrics": {
+        "monthly_revenue": 1800,
+        "speed_to_revenue_weeks": 4,
+        "market_size": "massive",
+        "competition": "medium"
+      },
+      "details": {
+        "name": "Reddit Organic Marketing (27 Subreddits)",
+        "monthly_revenue": 1800,
+        "speed_to_revenue_weeks": 4,
+        "market_size_category": "massive",
+        "competition_level": "medium",
+        "validation_weeks": 2,
+        "execution_complexity": "low",
+        "churn_risk": "medium",
+        "trend_momentum": "growing",
+        "boring_score": 4,
+        "decision_time_weeks": 0,
+        "source_details": "120 leads, $1,800 revenue in 45 days (35% conversion)"
+      }
+    },
+    {
+      "opportunity": "Hacker News Front Page (Dev Tool)",
+      "source_scanner": "unknown",
+      "total_score": 69.4,
+      "dimension_scores": {
+        "revenue_potential": 6,
+        "speed_to_revenue": 10,
+        "market_size": 8,
+        "competition_level": 3,
+        "validation_speed": 10,
+        "execution_complexity": 8,
+        "sustainability": 6,
+        "trend_momentum": 6,
+        "boring_factor": 3,
+        "decision_speed": 10
+      },
+      "weighted_total": 79.1,
+      "max_possible": 114.0,
+      "key_metrics": {
+        "monthly_revenue": 2000,
+        "speed_to_revenue_weeks": 1,
+        "market_size": "large",
+        "competition": "high"
+      },
+      "details": {
+        "name": "Hacker News Front Page (Dev Tool)",
+        "monthly_revenue": 2000,
+        "speed_to_revenue_weeks": 1,
+        "market_size_category": "large",
+        "competition_level": "high",
+        "validation_weeks": 1,
+        "execution_complexity": "low",
+        "churn_risk": "medium",
+        "trend_momentum": "stable",
+        "boring_score": 3,
+        "decision_time_weeks": 0,
+        "source_details": "Hit HN front page for 10K-100K+ visits"
+      }
+    },
+    {
+      "opportunity": "Enterprise AI Agent Service (Vertical Specialist)",
+      "source_scanner": "unknown",
+      "total_score": 64.8,
+      "dimension_scores": {
+        "revenue_potential": 10,
+        "speed_to_revenue": 2,
+        "market_size": 9,
+        "competition_level": 5,
+        "validation_speed": 6,
+        "execution_complexity": 2,
+        "sustainability": 10,
+        "trend_momentum": 9,
+        "boring_factor": 9,
+        "decision_speed": 2
+      },
+      "weighted_total": 73.9,
+      "max_possible": 114.0,
+      "key_metrics": {
+        "monthly_revenue": 50000,
+        "speed_to_revenue_weeks": 26,
+        "market_size": "very_large",
+        "competition": "medium"
+      },
+      "details": {
+        "name": "Enterprise AI Agent Service (Vertical Specialist)",
+        "monthly_revenue": 50000,
+        "speed_to_revenue_weeks": 26,
+        "market_size_category": "very_large",
+        "competition_level": "medium",
+        "validation_weeks": 8,
+        "execution_complexity": "very_high",
+        "churn_risk": "very_low",
+        "trend_momentum": "growing_fast",
+        "boring_score": 9,
+        "decision_time_weeks": 26,
+        "source_details": "$50K-150K monthly to operate, 2-3x premium for vertical"
+      }
+    },
+    {
+      "opportunity": "Mid-Market AI Agent Service (Horizontal)",
+      "source_scanner": "unknown",
+      "total_score": 62.6,
+      "dimension_scores": {
+        "revenue_potential": 9,
+        "speed_to_revenue": 5,
+        "market_size": 9,
+        "competition_level": 3,
+        "validation_speed": 7,
+        "execution_complexity": 4,
+        "sustainability": 6,
+        "trend_momentum": 8,
+        "boring_factor": 5,
+        "decision_speed": 6
+      },
+      "weighted_total": 71.4,
+      "max_possible": 114.0,
+      "key_metrics": {
+        "monthly_revenue": 20000,
+        "speed_to_revenue_weeks": 12,
+        "market_size": "very_large",
+        "competition": "high"
+      },
+      "details": {
+        "name": "Mid-Market AI Agent Service (Horizontal)",
+        "monthly_revenue": 20000,
+        "speed_to_revenue_weeks": 12,
+        "market_size_category": "very_large",
+        "competition_level": "high",
+        "validation_weeks": 6,
+        "execution_complexity": "high",
+        "churn_risk": "medium",
+        "trend_momentum": "growing",
+        "boring_score": 5,
+        "decision_time_weeks": 12,
+        "source_details": "Committee decision, RFP process"
+      }
+    },
+    {
+      "opportunity": "Product Hunt Launch (AI Tool)",
+      "source_scanner": "unknown",
+      "total_score": 59.9,
+      "dimension_scores": {
+        "revenue_potential": 5,
+        "speed_to_revenue": 7,
+        "market_size": 10,
+        "competition_level": 2,
+        "validation_speed": 9,
+        "execution_complexity": 6,
+        "sustainability": 4,
+        "trend_momentum": 6,
+        "boring_factor": 2,
+        "decision_speed": 10
+      },
+      "weighted_total": 68.3,
+      "max_possible": 114.0,
+      "key_metrics": {
+        "monthly_revenue": 1000,
+        "speed_to_revenue_weeks": 6,
+        "market_size": "massive",
+        "competition": "very_high"
+      },
+      "details": {
+        "name": "Product Hunt Launch (AI Tool)",
+        "monthly_revenue": 1000,
+        "speed_to_revenue_weeks": 6,
+        "market_size_category": "massive",
+        "competition_level": "very_high",
+        "validation_weeks": 2,
+        "execution_complexity": "medium",
+        "churn_risk": "high",
+        "trend_momentum": "stable",
+        "boring_score": 2,
+        "decision_time_weeks": 0,
+        "source_details": "Product Hunt launch with 200-350 upvotes for top 5"
+      }
+    }
+  ],
+  "all_opportunities_ranked": [
+    {
+      "opportunity": "Reddit Organic Marketing (27 Subreddits)",
+      "source_scanner": "unknown",
+      "total_score": 71.8,
+      "dimension_scores": {
+        "revenue_potential": 5,
+        "speed_to_revenue": 8,
+        "market_size": 10,
+        "competition_level": 5,
+        "validation_speed": 9,
+        "execution_complexity": 8,
+        "sustainability": 6,
+        "trend_momentum": 8,
+        "boring_factor": 4,
+        "decision_speed": 10
+      },
+      "weighted_total": 81.8,
+      "max_possible": 114.0,
+      "key_metrics": {
+        "monthly_revenue": 1800,
+        "speed_to_revenue_weeks": 4,
+        "market_size": "massive",
+        "competition": "medium"
+      },
+      "details": {
+        "name": "Reddit Organic Marketing (27 Subreddits)",
+        "monthly_revenue": 1800,
+        "speed_to_revenue_weeks": 4,
+        "market_size_category": "massive",
+        "competition_level": "medium",
+        "validation_weeks": 2,
+        "execution_complexity": "low",
+        "churn_risk": "medium",
+        "trend_momentum": "growing",
+        "boring_score": 4,
+        "decision_time_weeks": 0,
+        "source_details": "120 leads, $1,800 revenue in 45 days (35% conversion)"
+      }
+    },
+    {
+      "opportunity": "Hacker News Front Page (Dev Tool)",
+      "source_scanner": "unknown",
+      "total_score": 69.4,
+      "dimension_scores": {
+        "revenue_potential": 6,
+        "speed_to_revenue": 10,
+        "market_size": 8,
+        "competition_level": 3,
+        "validation_speed": 10,
+        "execution_complexity": 8,
+        "sustainability": 6,
+        "trend_momentum": 6,
+        "boring_factor": 3,
+        "decision_speed": 10
+      },
+      "weighted_total": 79.1,
+      "max_possible": 114.0,
+      "key_metrics": {
+        "monthly_revenue": 2000,
+        "speed_to_revenue_weeks": 1,
+        "market_size": "large",
+        "competition": "high"
+      },
+      "details": {
+        "name": "Hacker News Front Page (Dev Tool)",
+        "monthly_revenue": 2000,
+        "speed_to_revenue_weeks": 1,
+        "market_size_category": "large",
+        "competition_level": "high",
+        "validation_weeks": 1,
+        "execution_complexity": "low",
+        "churn_risk": "medium",
+        "trend_momentum": "stable",
+        "boring_score": 3,
+        "decision_time_weeks": 0,
+        "source_details": "Hit HN front page for 10K-100K+ visits"
+      }
+    },
+    {
+      "opportunity": "Enterprise AI Agent Service (Vertical Specialist)",
+      "source_scanner": "unknown",
+      "total_score": 64.8,
+      "dimension_scores": {
+        "revenue_potential": 10,
+        "speed_to_revenue": 2,
+        "market_size": 9,
+        "competition_level": 5,
+        "validation_speed": 6,
+        "execution_complexity": 2,
+        "sustainability": 10,
+        "trend_momentum": 9,
+        "boring_factor": 9,
+        "decision_speed": 2
+      },
+      "weighted_total": 73.9,
+      "max_possible": 114.0,
+      "key_metrics": {
+        "monthly_revenue": 50000,
+        "speed_to_revenue_weeks": 26,
+        "market_size": "very_large",
+        "competition": "medium"
+      },
+      "details": {
+        "name": "Enterprise AI Agent Service (Vertical Specialist)",
+        "monthly_revenue": 50000,
+        "speed_to_revenue_weeks": 26,
+        "market_size_category": "very_large",
+        "competition_level": "medium",
+        "validation_weeks": 8,
+        "execution_complexity": "very_high",
+        "churn_risk": "very_low",
+        "trend_momentum": "growing_fast",
+        "boring_score": 9,
+        "decision_time_weeks": 26,
+        "source_details": "$50K-150K monthly to operate, 2-3x premium for vertical"
+      }
+    },
+    {
+      "opportunity": "Mid-Market AI Agent Service (Horizontal)",
+      "source_scanner": "unknown",
+      "total_score": 62.6,
+      "dimension_scores": {
+        "revenue_potential": 9,
+        "speed_to_revenue": 5,
+        "market_size": 9,
+        "competition_level": 3,
+        "validation_speed": 7,
+        "execution_complexity": 4,
+        "sustainability": 6,
+        "trend_momentum": 8,
+        "boring_factor": 5,
+        "decision_speed": 6
+      },
+      "weighted_total": 71.4,
+      "max_possible": 114.0,
+      "key_metrics": {
+        "monthly_revenue": 20000,
+        "speed_to_revenue_weeks": 12,
+        "market_size": "very_large",
+        "competition": "high"
+      },
+      "details": {
+        "name": "Mid-Market AI Agent Service (Horizontal)",
+        "monthly_revenue": 20000,
+        "speed_to_revenue_weeks": 12,
+        "market_size_category": "very_large",
+        "competition_level": "high",
+        "validation_weeks": 6,
+        "execution_complexity": "high",
+        "churn_risk": "medium",
+        "trend_momentum": "growing",
+        "boring_score": 5,
+        "decision_time_weeks": 12,
+        "source_details": "Committee decision, RFP process"
+      }
+    },
+    {
+      "opportunity": "Product Hunt Launch (AI Tool)",
+      "source_scanner": "unknown",
+      "total_score": 59.9,
+      "dimension_scores": {
+        "revenue_potential": 5,
+        "speed_to_revenue": 7,
+        "market_size": 10,
+        "competition_level": 2,
+        "validation_speed": 9,
+        "execution_complexity": 6,
+        "sustainability": 4,
+        "trend_momentum": 6,
+        "boring_factor": 2,
+        "decision_speed": 10
+      },
+      "weighted_total": 68.3,
+      "max_possible": 114.0,
+      "key_metrics": {
+        "monthly_revenue": 1000,
+        "speed_to_revenue_weeks": 6,
+        "market_size": "massive",
+        "competition": "very_high"
+      },
+      "details": {
+        "name": "Product Hunt Launch (AI Tool)",
+        "monthly_revenue": 1000,
+        "speed_to_revenue_weeks": 6,
+        "market_size_category": "massive",
+        "competition_level": "very_high",
+        "validation_weeks": 2,
+        "execution_complexity": "medium",
+        "churn_risk": "high",
+        "trend_momentum": "stable",
+        "boring_score": 2,
+        "decision_time_weeks": 0,
+        "source_details": "Product Hunt launch with 200-350 upvotes for top 5"
+      }
+    }
+  ],
+  "dimension_leaders": {
+    "highest_revenue_potential": {
+      "opportunity": "Enterprise AI Agent Service (Vertical Specialist)",
+      "score": 10,
+      "monthly_revenue": 50000
+    },
+    "fastest_to_revenue": {
+      "opportunity": "Hacker News Front Page (Dev Tool)",
+      "score": 10,
+      "weeks": 1
+    },
+    "lowest_competition": {
+      "opportunity": "Reddit Organic Marketing (27 Subreddits)",
+      "score": 5,
+      "competition": "medium"
+    },
+    "most_boring_unsexy": {
+      "opportunity": "Enterprise AI Agent Service (Vertical Specialist)",
+      "score": 9,
+      "note": "Boring = less competition = higher profitability"
+    }
+  },
+  "strategic_insights": {
+    "best_path_to_100k_mrr": {
+      "high_ticket_path": {
+        "description": "2-4 enterprise clients at $30K-50K/month",
+        "pros": "Fewer clients, higher quality, sticky",
+        "cons": "Long sales cycles (6-12 months), high complexity",
+        "best_opportunities": [
+          "Enterprise AI Agent Service (Vertical Specialist)"
+        ],
+        "timeline": "12-18 months"
+      },
+      "mid_ticket_path": {
+        "description": "7-10 clients at $10K-15K/month",
+        "pros": "Balanced approach, faster sales (2-4 months), manageable delivery",
+        "cons": "More clients to manage than high-ticket",
+        "best_opportunities": [
+          "Mid-Market AI Agent Service (Horizontal)"
+        ],
+        "timeline": "6-12 months"
+      },
+      "volume_path": {
+        "description": "100+ clients at $500-1000/month",
+        "pros": "Diversified risk, self-serve potential",
+        "cons": "High acquisition cost, support burden, churn",
+        "best_opportunities": [
+          "Reddit Organic Marketing (27 Subreddits)",
+          "Product Hunt Launch (AI Tool)"
+        ],
+        "timeline": "12-24 months"
+      },
+      "recommended": "mid_ticket_path",
+      "reasoning": "Best balance of speed, revenue, and execution complexity"
+    },
+    "fastest_to_first_dollar": {
+      "top_5_fastest": [
+        {
+          "opportunity": "Hacker News Front Page (Dev Tool)",
+          "weeks_to_revenue": 1,
+          "expected_revenue": 2000
+        },
+        {
+          "opportunity": "Reddit Organic Marketing (27 Subreddits)",
+          "weeks_to_revenue": 4,
+          "expected_revenue": 1800
+        },
+        {
+          "opportunity": "Product Hunt Launch (AI Tool)",
+          "weeks_to_revenue": 6,
+          "expected_revenue": 1000
+        },
+        {
+          "opportunity": "Mid-Market AI Agent Service (Horizontal)",
+          "weeks_to_revenue": 12,
+          "expected_revenue": 20000
+        },
+        {
+          "opportunity": "Enterprise AI Agent Service (Vertical Specialist)",
+          "weeks_to_revenue": 26,
+          "expected_revenue": 50000
+        }
+      ],
+      "recommended_quick_win": "Hacker News Front Page (Dev Tool)",
+      "strategy": "Start with fastest win to generate cash flow, then pursue higher-value opportunities"
+    },
+    "highest_sustainability": {
+      "top_5_sustainable": [
+        {
+          "opportunity": "Enterprise AI Agent Service (Vertical Specialist)",
+          "sustainability_score": 10,
+          "churn_risk": "very_low"
+        },
+        {
+          "opportunity": "Reddit Organic Marketing (27 Subreddits)",
+          "sustainability_score": 6,
+          "churn_risk": "medium"
+        },
+        {
+          "opportunity": "Hacker News Front Page (Dev Tool)",
+          "sustainability_score": 6,
+          "churn_risk": "medium"
+        },
+        {
+          "opportunity": "Mid-Market AI Agent Service (Horizontal)",
+          "sustainability_score": 6,
+          "churn_risk": "medium"
+        },
+        {
+          "opportunity": "Product Hunt Launch (AI Tool)",
+          "sustainability_score": 4,
+          "churn_risk": "high"
+        }
+      ],
+      "recommended_for_long_term": "Enterprise AI Agent Service (Vertical Specialist)"
+    },
+    "recommended_portfolio": {
+      "3_play_portfolio": {
+        "quick_win": {
+          "opportunity": "Hacker News Front Page (Dev Tool)",
+          "purpose": "Generate immediate cash flow",
+          "timeline": "Month 1-2"
+        },
+        "growth_engine": {
+          "opportunity": "Enterprise AI Agent Service (Vertical Specialist)",
+          "purpose": "Scale to $50K-100K MRR",
+          "timeline": "Month 3-12"
+        },
+        "stability_anchor": {
+          "opportunity": "Enterprise AI Agent Service (Vertical Specialist)",
+          "purpose": "Low-churn recurring revenue base",
+          "timeline": "Month 6-18"
+        }
+      },
+      "execution_order": [
+        "1. Launch quick win for immediate revenue",
+        "2. Use cash flow to fund growth engine development",
+        "3. Build stability anchor as portfolio ballast",
+        "4. Scale all three in parallel after validation"
+      ]
+    }
+  }
+}
