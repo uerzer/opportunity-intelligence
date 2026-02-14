@@ -1,10 +1,14 @@
 {
-  "generated_at": "2026-02-14T06:04:15.736448+00:00",
-  "newsletter_date": "2026-02-13",
+  "generated_at": "2026-02-14T06:08:34.687056+00:00",
+  "newsletter_date": "2026-02-14",
   "version": "1.0",
   "status": "draft",
-  "scanner_count": 0,
-  "total_opportunities": 0,
-  "total_news_items": 0,
-  "scanners_included": []
+  "scanner_count": 3,
+  "total_opportunities": 7,
+  "total_news_items": 20,
+  "scanners_included": [
+    "viral_trend_detector_20260214_060332",
+    "ai_agency_lead_generator_20260214T060414",
+    "enterprise_pricing_tracker_20260214_060526"
+  ]
 }
