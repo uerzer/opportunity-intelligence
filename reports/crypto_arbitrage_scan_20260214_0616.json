@@ -1,0 +1,58 @@
+{
+  "scan_timestamp": "2026-02-14T06:16:05.474623",
+  "configuration": {
+    "capital": 10000,
+    "min_spread": 0.005,
+    "chains": [
+      "ethereum",
+      "bsc",
+      "arbitrum",
+      "optimism"
+    ],
+    "focus": "all"
+  },
+  "opportunities": [
+    {
+      "type": "DEX-DEX Arbitrage",
+      "chains": [
+        "ethereum",
+        "bsc",
+        "arbitrum",
+        "optimism"
+      ],
+      "typical_spreads": "0.1-0.8%",
+      "execution_speed": "seconds",
+      "capital_requirement": "$10000+",
+      "tools_needed": [
+        "ArbitrageScanner.io ($69-795/mo)",
+        "Real-time price feeds (WebSocket)",
+        "Flash loan integration (Aave V3)",
+        "MEV protection (Flashbots)"
+      ],
+      "example_pairs": {
+        "ethereum": [
+          "Uniswap V3 vs SushiSwap",
+          "Curve vs Uniswap"
+        ],
+        "bsc": [
+          "PancakeSwap vs Biswap",
+          "ApeSwap vs PancakeSwap"
+        ],
+        "arbitrum": [
+          "Uniswap V3 vs Camelot"
+        ]
+      },
+      "profit_calc": {
+        "spread": "0.5%",
+        "trade_size": 10000,
+        "gross_profit": 50.0,
+        "fees": {
+          "gas": "$5-50 (chain dependent)",
+          "dex_swap": "0.3%",
+          "slippage": "0.1-0.5%"
+        },
+        "net_profit_range": "$10.00 - $30.00"
+      }
+    }
+  ]
+}
