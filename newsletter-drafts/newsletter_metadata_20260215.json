@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-02-15T06:04:32.293130",
+  "date": "20260215",
+  "newsletter_version": "1.0",
+  "sections": {
+    "news_stories": 20,
+    "crypto_arbitrage": true,
+    "zero_touch": false,
+    "viral_trends": false,
+    "ai_agency": false,
+    "micro_saas": false,
+    "pricing": false
+  },
+  "summary": {
+    "total_news_stories": 20,
+    "total_opportunities": 1,
+    "top_story": {
+      "title": "News publishers limit Internet Archive access due to AI scraping concerns",
+      "url": "https://www.niemanlab.org/2026/01/news-publishers-limit-internet-archive-access-due-to-ai-scraping-concerns/",
+      "score": 453,
+      "comments": 292,
+      "source": "HackerNews",
+      "timestamp": 1771094792,
+      "relevance_score": 11.030000000000001,
+      "category": "AI/ML"
+    }
+  }
+}
