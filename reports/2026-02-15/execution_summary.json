@@ -1,0 +1,51 @@
+{
+  "execution_date": "2026-02-15",
+  "execution_timestamp": "2026-02-15T06:08:52.132221",
+  "scanners_executed": 3,
+  "scanners_successful": 3,
+  "scanners_failed": 0,
+  "output_files": {
+    "crypto_arbitrage_report_20260215.json": {
+      "path": "outputs/opportunity-scanners/crypto_arbitrage_report_20260215.json",
+      "size_bytes": 7679,
+      "size_human": "7.5KB"
+    },
+    "daily_scanner_run_20260215.json": {
+      "path": "outputs/opportunity-scanners/daily_scanner_run_20260215.json",
+      "size_bytes": 49177,
+      "size_human": "48.0KB"
+    },
+    "unified_opportunity_rankings_20260215.json": {
+      "path": "outputs/opportunity-scanners/unified_opportunity_rankings_20260215.json",
+      "size_bytes": 7239,
+      "size_human": "7.1KB"
+    }
+  },
+  "key_findings": {
+    "crypto_arbitrage": {
+      "opportunities_found": 4,
+      "top_opportunity": "DEX-DEX Arbitrage",
+      "capital_requirement": "$10000+"
+    },
+    "ai_agency_leads": {
+      "niches_identified": 7,
+      "top_niche": "HVAC Contractors",
+      "avg_deal_size": "$2,000-$5,000/month retainer"
+    },
+    "unified_rankings": {
+      "total_opportunities_ranked": 7,
+      "top_opportunity": {
+        "rank": 1,
+        "category": "AI Agency Lead",
+        "title": "HVAC Contractors",
+        "deal_size": "$2,000-$5,000/month retainer",
+        "churn_risk": "Low - becomes mission-critical infrastructure",
+        "business_size": "$1M-$10M annual revenue",
+        "time_to_first_dollar": "2-4 weeks",
+        "complexity": "Medium",
+        "score": 95,
+        "key_metric": "$2,000-$5,000/month retainer"
+      }
+    }
+  }
+}
