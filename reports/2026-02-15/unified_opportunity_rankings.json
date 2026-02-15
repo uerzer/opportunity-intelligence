@@ -1,0 +1,812 @@
+{
+  "metadata": {
+    "generated_at": "2026-02-15T06:18:12.632691",
+    "date": "20260215",
+    "scorer_version": "2.0",
+    "total_opportunities": 22
+  },
+  "executive_summary": {
+    "total_opportunities": 22,
+    "average_score": 70.36,
+    "highest_score": 85.5,
+    "lowest_score": 40.0,
+    "top_opportunity": "AI Agency Lead Generator (Vertical Specialist)",
+    "category_counts": {
+      "Micro SaaS": 5,
+      "AI Agency Niche": 7,
+      "Viral Marketing": 3,
+      "Enterprise Strategy": 3,
+      "Crypto Arbitrage": 4
+    },
+    "category_averages": {
+      "Micro SaaS": 78.0,
+      "AI Agency Niche": 72.0,
+      "Viral Marketing": 71.67,
+      "Enterprise Strategy": 73.0,
+      "Crypto Arbitrage": 55.0
+    },
+    "grade_distribution": {
+      "A": 4,
+      "A-": 2,
+      "B+": 4,
+      "B": 8,
+      "B-": 1,
+      "C+": 1,
+      "C": 2
+    },
+    "viability_distribution": {
+      "HIGHLY VIABLE - Strong execution potential": 3,
+      "Highly Viable": 3,
+      "VIABLE - Proceed with validation": 1,
+      "Viable": 12,
+      "MARGINAL - Requires significant improvement": 1,
+      "Marginal": 2
+    },
+    "top_5_names": [
+      "AI Agency Lead Generator (Vertical Specialist)",
+      "Enterprise AI Pricing Calculator",
+      "SOC 2 Compliance Accelerator for AI Startups",
+      "AI Agency: HVAC Contractors",
+      "Viral Trend Alert System"
+    ]
+  },
+  "unified_rankings": [
+    {
+      "rank": 1,
+      "name": "AI Agency Lead Generator (Vertical Specialist)",
+      "category": "Micro SaaS",
+      "score": 85.5,
+      "grade": "A",
+      "viability": "HIGHLY VIABLE - Strong execution potential",
+      "source": "micro_saas_validation",
+      "details": {
+        "time_to_market": "N/A",
+        "target_mrr": "N/A",
+        "scores": {},
+        "strengths": [],
+        "weaknesses": [],
+        "recommendations": []
+      },
+      "overall_rank": 1
+    },
+    {
+      "rank": 2,
+      "name": "Enterprise AI Pricing Calculator",
+      "category": "Micro SaaS",
+      "score": 83.5,
+      "grade": "A-",
+      "viability": "HIGHLY VIABLE - Strong execution potential",
+      "source": "micro_saas_validation",
+      "details": {
+        "time_to_market": "N/A",
+        "target_mrr": "N/A",
+        "scores": {},
+        "strengths": [],
+        "weaknesses": [],
+        "recommendations": []
+      },
+      "overall_rank": 2
+    },
+    {
+      "rank": 3,
+      "name": "SOC 2 Compliance Accelerator for AI Startups",
+      "category": "Micro SaaS",
+      "score": 80.5,
+      "grade": "A-",
+      "viability": "HIGHLY VIABLE - Strong execution potential",
+      "source": "micro_saas_validation",
+      "details": {
+        "time_to_market": "N/A",
+        "target_mrr": "N/A",
+        "scores": {},
+        "strengths": [],
+        "weaknesses": [],
+        "recommendations": []
+      },
+      "overall_rank": 3
+    },
+    {
+      "rank": 1,
+      "name": "AI Agency: HVAC Contractors",
+      "category": "AI Agency Niche",
+      "score": 78.0,
+      "grade": "A",
+      "viability": "Highly Viable",
+      "source": "ai_agency_leads",
+      "details": {
+        "industry": "HVAC Contractors",
+        "decision_maker": "Owner/GM",
+        "average_deal_size": "$2,000-$5,000/month retainer",
+        "pain_points": [
+          "Seasonal lead spikes overwhelm staff",
+          "Missed calls = lost revenue ($5K-20K per job)",
+          "Manual scheduling causes double-bookings",
+          "No automated follow-up for estimates",
+          "Technicians waste time on non-qualified leads"
+        ],
+        "budget_signals": [
+          "Currently paying for Google Ads ($2K-10K/mo)",
+          "Has 5+ service trucks",
+          "Employs office staff for phones",
+          "Reviews mention 'hard to reach' or 'slow callbacks'"
+        ],
+        "automation_opportunities": {
+          "ai_receptionist": {
+            "solves": "24/7 call handling, appointment booking, emergency routing",
+            "tools": [
+              "Synthflow ($29-299/mo)",
+              "Bland AI ($0.09/min)",
+              "Vapi ($0.05/min)"
+            ],
+            "client_value": "$10K-30K monthly revenue recovery from missed calls",
+            "your_retainer": "$1,500-$3,000/month"
+          },
+          "lead_qualification_bot": {
+            "solves": "Pre-qualify leads before technician dispatch",
+            "tools": [
+              "Custom GPT via API",
+              "Intercom",
+              "Zendesk AI"
+            ],
+            "client_value": "30% reduction in wasted truck rolls",
+            "your_retainer": "$1,000-$2,000/month"
+          },
+          "automated_estimate_followup": {
+            "solves": "Systematic follow-up on $5K-$20K quotes",
+            "tools": [
+              "Clay ($149-800/mo)",
+              "Instantly AI ($37-358/mo)",
+              "HubSpot AI"
+            ],
+            "client_value": "15-25% conversion lift on pending estimates",
+            "your_retainer": "$800-$1,500/month"
+          }
+        },
+        "outreach_angle": "Stop losing $5K-$20K jobs to voicemail. AI receptionist books appointments 24/7.",
+        "churn_risk": "Low - becomes mission-critical infrastructure"
+      },
+      "overall_rank": 4
+    },
+    {
+      "rank": 4,
+      "name": "Viral Trend Alert System",
+      "category": "Micro SaaS",
+      "score": 77.5,
+      "grade": "B+",
+      "viability": "VIABLE - Proceed with validation",
+      "source": "micro_saas_validation",
+      "details": {
+        "time_to_market": "N/A",
+        "target_mrr": "N/A",
+        "scores": {},
+        "strengths": [],
+        "weaknesses": [],
+        "recommendations": []
+      },
+      "overall_rank": 5
+    },
+    {
+      "rank": 2,
+      "name": "AI Agency: Dental Practices",
+      "category": "AI Agency Niche",
+      "score": 76.0,
+      "grade": "A",
+      "viability": "Highly Viable",
+      "source": "ai_agency_leads",
+      "details": {
+        "industry": "Dental Practices",
+        "decision_maker": "Practice Owner/Office Manager",
+        "average_deal_size": "$1,500-$3,500/month retainer",
+        "pain_points": [
+          "Appointment no-shows cost $200-400 per slot",
+          "Front desk overwhelmed with scheduling calls",
+          "Insurance verification is manual and error-prone",
+          "Patient recall/reminder systems are clunky",
+          "Can't afford full-time marketing coordinator"
+        ],
+        "budget_signals": [
+          "Multi-chair practice (3+ dentists)",
+          "Paying for patient management software already",
+          "Reviews mention 'long wait times' or 'scheduling issues'",
+          "Recently expanded or opening new location"
+        ],
+        "automation_opportunities": {
+          "appointment_confirmation_bot": {
+            "solves": "Automated reminders via SMS/voice reduce no-shows 40%",
+            "tools": [
+              "Twilio + GPT-4",
+              "Zendesk",
+              "Custom solution"
+            ],
+            "client_value": "$8K-$15K monthly revenue saved from no-shows",
+            "your_retainer": "$800-$1,500/month"
+          },
+          "patient_intake_automation": {
+            "solves": "Digital forms + AI validation before appointment",
+            "tools": [
+              "Typeform + Zapier",
+              "Jotform + Make.com",
+              "Custom GPT"
+            ],
+            "client_value": "Save 10-15 admin hours/week",
+            "your_retainer": "$600-$1,200/month"
+          },
+          "insurance_verification_assistant": {
+            "solves": "Pre-verify coverage before expensive procedures",
+            "tools": [
+              "RPA + GPT-4 for form reading",
+              "API integrations"
+            ],
+            "client_value": "Reduce billing errors by 30%, faster payment",
+            "your_retainer": "$1,000-$2,500/month"
+          }
+        },
+        "outreach_angle": "Cut no-shows by 40% and save 15 admin hours weekly with AI automation.",
+        "churn_risk": "Medium - ROI must be clear within 90 days"
+      },
+      "overall_rank": 6
+    },
+    {
+      "rank": 1,
+      "name": "Product Hunt Launch Campaign",
+      "category": "Viral Marketing",
+      "score": 75.0,
+      "grade": "B+",
+      "viability": "Viable",
+      "source": "viral_trends",
+      "details": {
+        "platform": "Product Hunt",
+        "success_metrics": {
+          "ranking_vs_conversion": "Conversion rate > ranking position",
+          "signup_conversion": "8-15% of visitors (if lower, landing page needs work)",
+          "activation_within_7_days": "30-50% of signups",
+          "paid_conversion_30_days": "5-12% of activated users (PMF benchmark)",
+          "comment_to_upvote_ratio": "Must be > 1:20 (below suggests manipulation)"
+        },
+        "preparation_timeline": "4-6 weeks structured prep = 2.5-3x better conversion",
+        "key_insights": [
+          "Product Hunt 2026: Conversion > ranking, 4-6 week prep = 2.5x better results",
+          "Hacker News: Technical substance wins, but platform has bias toward YC companies",
+          "Reddit: 90/10 value-to-promo ratio, 27 best subreddits identified"
+        ],
+        "immediate_actions": [
+          "1. Set up keyword alerts for your category across PH, HN, Reddit",
+          "2. Create monitoring dashboard tracking top 10 launches daily",
+          "3. Analyze 30 recent viral products in your space (what worked?)"
+        ]
+      },
+      "overall_rank": 7
+    },
+    {
+      "rank": 1,
+      "name": "Enterprise: A Vertical Specialist",
+      "category": "Enterprise Strategy",
+      "score": 75.0,
+      "grade": "B+",
+      "viability": "Viable",
+      "source": "enterprise_pricing",
+      "details": {
+        "strategy": "A Vertical Specialist",
+        "target": "One industry (e.g., healthcare, finance, logistics)",
+        "advantage": "Deep expertise, pre-built integrations, compliance",
+        "pricing": "$25K-$75K/month",
+        "sales_cycle": "3-6 months",
+        "path_to_100k": "2-4 enterprise clients",
+        "key_insights": [
+          "Average enterprise AI spending: $85,521/month (2025 data)",
+          "Production AI agents cost $50K-150K/month to operate, not $20",
+          "SOC 2 Type II is mandatory for 80% of enterprise RFPs"
+        ]
+      },
+      "overall_rank": 8
+    },
+    {
+      "rank": 3,
+      "name": "AI Agency: Roofing Companies",
+      "category": "AI Agency Niche",
+      "score": 74.0,
+      "grade": "A",
+      "viability": "Highly Viable",
+      "source": "ai_agency_leads",
+      "details": {
+        "industry": "Roofing Companies",
+        "decision_maker": "Owner/Sales Manager",
+        "average_deal_size": "$2,000-$4,000/month retainer",
+        "pain_points": [
+          "Storm leads flood in, then go cold",
+          "Sales reps struggle with quote follow-up",
+          "Seasonal revenue spikes are chaotic",
+          "High-ticket jobs ($10K-$50K) need persistent nurture",
+          "Lead quality from online sources is terrible"
+        ],
+        "budget_signals": [
+          "Paying for HomeAdvisor/Angi leads ($500-2K/mo)",
+          "Has sales team (not just owner doing sales)",
+          "Truck fleet with branding",
+          "Google Ads spend $3K+/month"
+        ],
+        "automation_opportunities": {
+          "storm_lead_response_bot": {
+            "solves": "Instant response to emergency roof damage inquiries",
+            "tools": [
+              "Bland AI for calls",
+              "SMS automation",
+              "Lead routing"
+            ],
+            "client_value": "First response in <5 min increases close rate 400%",
+            "your_retainer": "$1,500-$3,000/month"
+          },
+          "quote_followup_sequence": {
+            "solves": "Multi-touch follow-up on $10K-$50K quotes",
+            "tools": [
+              "Clay",
+              "Instantly AI",
+              "HubSpot workflows"
+            ],
+            "client_value": "15-30% lift in quote-to-close rate",
+            "your_retainer": "$1,000-$2,500/month"
+          },
+          "lead_scoring_qualification": {
+            "solves": "Filter out tire-kickers, prioritize insurance jobs",
+            "tools": [
+              "Custom GPT scoring model",
+              "CRM integration"
+            ],
+            "client_value": "Sales reps focus on qualified $20K+ opportunities",
+            "your_retainer": "$800-$1,500/month"
+          }
+        },
+        "outreach_angle": "Stop wasting sales time on unqualified leads. AI scores and routes your best $20K+ opportunities.",
+        "churn_risk": "Low - seasonal but renewable annually"
+      },
+      "overall_rank": 9
+    },
+    {
+      "rank": 2,
+      "name": "Enterprise: B Horizontal Premium",
+      "category": "Enterprise Strategy",
+      "score": 73.0,
+      "grade": "B+",
+      "viability": "Viable",
+      "source": "enterprise_pricing",
+      "details": {
+        "strategy": "B Horizontal Premium",
+        "target": "Mid-market to enterprise, any industry",
+        "advantage": "Best-in-class tech, white-glove service, fast deployment",
+        "pricing": "$15K-$50K/month",
+        "sales_cycle": "2-4 months",
+        "path_to_100k": "3-7 clients",
+        "key_insights": [
+          "Average enterprise AI spending: $85,521/month (2025 data)",
+          "Production AI agents cost $50K-150K/month to operate, not $20",
+          "SOC 2 Type II is mandatory for 80% of enterprise RFPs"
+        ]
+      },
+      "overall_rank": 10
+    },
+    {
+      "rank": 4,
+      "name": "AI Agency: Med Spas / Aesthetic Clinics",
+      "category": "AI Agency Niche",
+      "score": 72.0,
+      "grade": "B",
+      "viability": "Viable",
+      "source": "ai_agency_leads",
+      "details": {
+        "industry": "Med Spas / Aesthetic Clinics",
+        "decision_maker": "Owner/Marketing Manager",
+        "average_deal_size": "$1,500-$3,000/month retainer",
+        "pain_points": [
+          "High-value procedures ($2K-10K) need nurture",
+          "Booking coordination across multiple providers",
+          "Consultation no-shows waste physician time",
+          "Manual patient education pre-procedure",
+          "Social proof/review management is inconsistent"
+        ],
+        "budget_signals": [
+          "Active on Instagram with 1K+ followers",
+          "Paying for social media ads",
+          "Offering high-ticket packages ($5K+)",
+          "Multiple treatment providers on staff"
+        ],
+        "automation_opportunities": {
+          "consultation_booking_bot": {
+            "solves": "AI-powered scheduling with availability sync",
+            "tools": [
+              "Cal.com + GPT",
+              "Acuity + Zapier",
+              "Custom solution"
+            ],
+            "client_value": "Fill $2K-$10K consultation slots automatically",
+            "your_retainer": "$1,200-$2,500/month"
+          },
+          "pre_procedure_education_bot": {
+            "solves": "Automated Q&A about Botox, fillers, laser treatments",
+            "tools": [
+              "Custom GPT chatbot",
+              "Intercom",
+              "Drift"
+            ],
+            "client_value": "Reduce pre-consult anxiety, increase show-up rate 25%",
+            "your_retainer": "$800-$1,500/month"
+          },
+          "review_request_automation": {
+            "solves": "Systematic review requests post-treatment",
+            "tools": [
+              "Birdeye integration",
+              "Podium",
+              "Custom SMS flow"
+            ],
+            "client_value": "2-3x more Google reviews = more organic bookings",
+            "your_retainer": "$600-$1,000/month"
+          }
+        },
+        "outreach_angle": "Fill your $2K-$10K consultation calendar on autopilot with AI booking.",
+        "churn_risk": "Medium - competitive market, must show clear ROI"
+      },
+      "overall_rank": 11
+    },
+    {
+      "rank": 2,
+      "name": "Hacker News Strategy",
+      "category": "Viral Marketing",
+      "score": 72.0,
+      "grade": "B",
+      "viability": "Viable",
+      "source": "viral_trends",
+      "details": {
+        "platform": "Hacker News",
+        "content_types": [],
+        "best_practices": [],
+        "key_insights": [
+          "Product Hunt 2026: Conversion > ranking, 4-6 week prep = 2.5x better results",
+          "Hacker News: Technical substance wins, but platform has bias toward YC companies",
+          "Reddit: 90/10 value-to-promo ratio, 27 best subreddits identified"
+        ]
+      },
+      "overall_rank": 12
+    },
+    {
+      "rank": 3,
+      "name": "Enterprise: C Implementation Partner",
+      "category": "Enterprise Strategy",
+      "score": 71.0,
+      "grade": "B",
+      "viability": "Viable",
+      "source": "enterprise_pricing",
+      "details": {
+        "strategy": "C Implementation Partner",
+        "target": "Partner with existing platforms (UiPath, etc.)",
+        "advantage": "Implementation, training, optimization services",
+        "pricing": "$10K-$30K/month retainer + project fees",
+        "sales_cycle": "1-3 months (leveraging platform's sales)",
+        "path_to_100k": "4-10 clients or 2-3 large projects",
+        "key_insights": [
+          "Average enterprise AI spending: $85,521/month (2025 data)",
+          "Production AI agents cost $50K-150K/month to operate, not $20",
+          "SOC 2 Type II is mandatory for 80% of enterprise RFPs"
+        ]
+      },
+      "overall_rank": 13
+    },
+    {
+      "rank": 5,
+      "name": "AI Agency: Tree Removal / Arborist Services",
+      "category": "AI Agency Niche",
+      "score": 70.0,
+      "grade": "B",
+      "viability": "Viable",
+      "source": "ai_agency_leads",
+      "details": {
+        "industry": "Tree Removal / Arborist Services",
+        "decision_maker": "Owner",
+        "average_deal_size": "$1,800-$3,500/month retainer",
+        "pain_points": [
+          "Emergency calls outside business hours",
+          "Job size varies wildly ($500-$20K)",
+          "Quote accuracy requires site visit",
+          "Insurance work has specific documentation needs",
+          "Seasonal demand spikes (storm season)"
+        ],
+        "budget_signals": [
+          "Multiple crews/trucks",
+          "Specialized equipment (cranes, chippers)",
+          "Insurance-heavy client base",
+          "Premium pricing ($2K+ per job average)"
+        ],
+        "automation_opportunities": {
+          "emergency_call_routing": {
+            "solves": "24/7 emergency tree removal intake and crew dispatch",
+            "tools": [
+              "Bland AI",
+              "Twilio",
+              "Custom GPT routing logic"
+            ],
+            "client_value": "$10K-$30K monthly from after-hours emergencies",
+            "your_retainer": "$1,500-$3,000/month"
+          },
+          "photo_based_quoting": {
+            "solves": "AI estimates tree height, risk, pricing from photos",
+            "tools": [
+              "GPT-4 Vision",
+              "Custom model",
+              "Form integration"
+            ],
+            "client_value": "Reduce site visit costs by 40%, faster quotes",
+            "your_retainer": "$1,000-$2,000/month"
+          },
+          "insurance_documentation": {
+            "solves": "Auto-generate required docs for insurance claims",
+            "tools": [
+              "Document automation",
+              "GPT-4",
+              "PDF generation"
+            ],
+            "client_value": "Close insurance jobs 2x faster",
+            "your_retainer": "$800-$1,500/month"
+          }
+        },
+        "outreach_angle": "Capture $10K-$30K in after-hours emergency calls with AI dispatcher.",
+        "churn_risk": "Low - emergency infrastructure is sticky"
+      },
+      "overall_rank": 14
+    },
+    {
+      "rank": 3,
+      "name": "Crypto: Cross-Chain Arbitrage",
+      "category": "Crypto Arbitrage",
+      "score": 68.33333333333333,
+      "grade": "B",
+      "viability": "Viable",
+      "source": "crypto_arbitrage",
+      "details": {
+        "type": "Cross-Chain Arbitrage",
+        "typical_spreads": "1-3%",
+        "execution_speed": "10-30 minutes",
+        "capital_requirement": "$10000+",
+        "net_profit_range": "$50.00 - $120.00",
+        "avg_profit_per_trade": "$85.00",
+        "tools_needed": [],
+        "challenges": {
+          "bridge_fees": "0.1-0.5% + gas on both chains",
+          "bridge_delay": "10-30 minutes for finality",
+          "liquidity_constraints": "Large trades may exceed bridge capacity",
+          "smart_contract_risk": "Bridge exploits are common"
+        },
+        "friction_points": []
+      },
+      "overall_rank": 15
+    },
+    {
+      "rank": 6,
+      "name": "AI Agency: Pain Management Clinics",
+      "category": "AI Agency Niche",
+      "score": 68.0,
+      "grade": "B",
+      "viability": "Viable",
+      "source": "ai_agency_leads",
+      "details": {
+        "industry": "Pain Management Clinics",
+        "decision_maker": "Practice Administrator/Compliance Officer",
+        "average_deal_size": "$3,000-$7,000/month retainer",
+        "pain_points": [
+          "Complex insurance pre-authorization processes",
+          "Referral coordination from primary care",
+          "Compliance documentation for controlled substances",
+          "Patient intake requires detailed medical history",
+          "High no-show rates for follow-up appointments"
+        ],
+        "budget_signals": [
+          "Multi-physician practice",
+          "Complex EHR system already in place",
+          "Dedicated billing staff",
+          "Dealing with payer mix (Medicare, commercial, workers comp)"
+        ],
+        "automation_opportunities": {
+          "insurance_preauth_automation": {
+            "solves": "Auto-submit and track prior authorization requests",
+            "tools": [
+              "RPA + GPT-4",
+              "API integrations with payers"
+            ],
+            "client_value": "$20K-$50K monthly revenue acceleration",
+            "your_retainer": "$2,000-$5,000/month"
+          },
+          "referral_intake_bot": {
+            "solves": "Collect referral info and schedule efficiently",
+            "tools": [
+              "Custom GPT + EHR integration",
+              "HIPAA-compliant hosting"
+            ],
+            "client_value": "Process 30% more referrals with same staff",
+            "your_retainer": "$1,500-$3,000/month"
+          },
+          "compliance_documentation": {
+            "solves": "Automated audit trails for DEA compliance",
+            "tools": [
+              "Document automation",
+              "Secure logging",
+              "Alert systems"
+            ],
+            "client_value": "Reduce audit risk, pass inspections easily",
+            "your_retainer": "$1,500-$4,000/month"
+          }
+        },
+        "outreach_angle": "Automate insurance pre-auth and accelerate $20K-$50K monthly revenue.",
+        "churn_risk": "Very Low - healthcare compliance is critical"
+      },
+      "overall_rank": 16
+    },
+    {
+      "rank": 3,
+      "name": "Reddit Community Building",
+      "category": "Viral Marketing",
+      "score": 68.0,
+      "grade": "B-",
+      "viability": "Viable",
+      "source": "viral_trends",
+      "details": {
+        "platform": "Reddit",
+        "subreddits": [],
+        "strategies": [],
+        "key_insights": [
+          "Product Hunt 2026: Conversion > ranking, 4-6 week prep = 2.5x better results",
+          "Hacker News: Technical substance wins, but platform has bias toward YC companies",
+          "Reddit: 90/10 value-to-promo ratio, 27 best subreddits identified"
+        ]
+      },
+      "overall_rank": 17
+    },
+    {
+      "rank": 7,
+      "name": "AI Agency: Pool Maintenance / Service",
+      "category": "AI Agency Niche",
+      "score": 66.0,
+      "grade": "B",
+      "viability": "Viable",
+      "source": "ai_agency_leads",
+      "details": {
+        "industry": "Pool Maintenance / Service",
+        "decision_maker": "Owner/Operations Manager",
+        "average_deal_size": "$1,200-$2,500/month retainer",
+        "pain_points": [
+          "Route optimization for service techs",
+          "Chemical inventory management",
+          "Seasonal contract renewals (50% churn if forgotten)",
+          "Customer communication about service visits",
+          "Upselling pool repairs and upgrades"
+        ],
+        "budget_signals": [
+          "50+ recurring service accounts",
+          "Multiple service techs",
+          "Truck fleet",
+          "Offering repair services (not just maintenance)"
+        ],
+        "automation_opportunities": {
+          "route_optimization": {
+            "solves": "AI-optimized daily routes save fuel and time",
+            "tools": [
+              "Route planning APIs",
+              "Custom optimization",
+              "Maps integration"
+            ],
+            "client_value": "Save 10-15 hours weekly, service 20% more pools",
+            "your_retainer": "$800-$1,500/month"
+          },
+          "seasonal_renewal_automation": {
+            "solves": "Auto-send renewal offers 60 days before season",
+            "tools": [
+              "Email/SMS sequences",
+              "Payment link integration"
+            ],
+            "client_value": "Boost renewal rate from 50% to 75%+",
+            "your_retainer": "$600-$1,200/month"
+          },
+          "upsell_detection": {
+            "solves": "AI flags pools needing repairs based on service notes",
+            "tools": [
+              "GPT-4 analysis of tech notes",
+              "CRM alerts"
+            ],
+            "client_value": "$5K-$15K monthly upsell revenue",
+            "your_retainer": "$800-$1,500/month"
+          }
+        },
+        "outreach_angle": "Boost contract renewals to 75%+ and add $5K-$15K monthly upsell revenue.",
+        "churn_risk": "Medium - seasonal nature but strong retention if ROI clear"
+      },
+      "overall_rank": 18
+    },
+    {
+      "rank": 2,
+      "name": "Crypto: CEX-DEX Arbitrage",
+      "category": "Crypto Arbitrage",
+      "score": 65.0,
+      "grade": "B",
+      "viability": "Viable",
+      "source": "crypto_arbitrage",
+      "details": {
+        "type": "CEX-DEX Arbitrage",
+        "typical_spreads": "0.5-2%",
+        "execution_speed": "minutes",
+        "capital_requirement": "$10000+",
+        "net_profit_range": "$50.00 - $100.00",
+        "avg_profit_per_trade": "$75.00",
+        "tools_needed": [],
+        "challenges": {},
+        "friction_points": [
+          "CEX withdrawal times (5-30 min)",
+          "Network congestion fees",
+          "CEX withdrawal fees ($5-50)",
+          "KYC/compliance requirements"
+        ]
+      },
+      "overall_rank": 19
+    },
+    {
+      "rank": 5,
+      "name": "Crypto Arbitrage Monitor",
+      "category": "Micro SaaS",
+      "score": 63.0,
+      "grade": "C+",
+      "viability": "MARGINAL - Requires significant improvement",
+      "source": "micro_saas_validation",
+      "details": {
+        "time_to_market": "N/A",
+        "target_mrr": "N/A",
+        "scores": {},
+        "strengths": [],
+        "weaknesses": [],
+        "recommendations": []
+      },
+      "overall_rank": 20
+    },
+    {
+      "rank": 1,
+      "name": "Crypto: DEX-DEX Arbitrage",
+      "category": "Crypto Arbitrage",
+      "score": 46.666666666666664,
+      "grade": "C",
+      "viability": "Marginal",
+      "source": "crypto_arbitrage",
+      "details": {
+        "type": "DEX-DEX Arbitrage",
+        "typical_spreads": "0.1-0.8%",
+        "execution_speed": "seconds",
+        "capital_requirement": "$10000+",
+        "net_profit_range": "$10.00 - $30.00",
+        "avg_profit_per_trade": "$20.00",
+        "tools_needed": [
+          "ArbitrageScanner.io ($69-795/mo)",
+          "Real-time price feeds (WebSocket)",
+          "Flash loan integration (Aave V3)",
+          "MEV protection (Flashbots)"
+        ],
+        "challenges": {},
+        "friction_points": []
+      },
+      "overall_rank": 21
+    },
+    {
+      "rank": 4,
+      "name": "Crypto: MEV (Maximal Extractable Value)",
+      "category": "Crypto Arbitrage",
+      "score": 40.0,
+      "grade": "C",
+      "viability": "Marginal",
+      "source": "crypto_arbitrage",
+      "details": {
+        "type": "MEV (Maximal Extractable Value)",
+        "typical_spreads": null,
+        "execution_speed": "milliseconds",
+        "capital_requirement": "$50000+ (high capital efficiency)",
+        "net_profit_range": "$0-$0",
+        "avg_profit_per_trade": "$0.00",
+        "tools_needed": [],
+        "challenges": {},
+        "friction_points": []
+      },
+      "overall_rank": 22
+    }
+  ]
+}
