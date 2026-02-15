@@ -1,0 +1,463 @@
+{
+  "timestamp": "2026-02-15T06:24:36.503892",
+  "total_ideas_evaluated": 5,
+  "validation_framework_version": "1.0",
+  "ranking": [
+    {
+      "rank": 1,
+      "idea_name": "AI Agency Lead Generator (Vertical Specialist)",
+      "category": "B2B SaaS",
+      "score": 85.5,
+      "grade": "A",
+      "viability": "HIGHLY VIABLE - Strong execution potential"
+    },
+    {
+      "rank": 2,
+      "idea_name": "Enterprise AI Pricing Calculator",
+      "category": "B2B Tool",
+      "score": 83.5,
+      "grade": "A-",
+      "viability": "HIGHLY VIABLE - Strong execution potential"
+    },
+    {
+      "rank": 3,
+      "idea_name": "SOC 2 Compliance Accelerator for AI Startups",
+      "category": "B2B Compliance",
+      "score": 80.5,
+      "grade": "A-",
+      "viability": "HIGHLY VIABLE - Strong execution potential"
+    },
+    {
+      "rank": 4,
+      "idea_name": "Viral Trend Alert System",
+      "category": "Media/Content",
+      "score": 77.5,
+      "grade": "B+",
+      "viability": "VIABLE - Proceed with validation"
+    },
+    {
+      "rank": 5,
+      "idea_name": "Crypto Arbitrage Monitor",
+      "category": "Crypto/Finance",
+      "score": 63.0,
+      "grade": "C+",
+      "viability": "MARGINAL - Requires significant improvement"
+    }
+  ],
+  "detailed_results": [
+    {
+      "idea_name": "AI Agency Lead Generator (Vertical Specialist)",
+      "category": "B2B SaaS",
+      "total_score": 8.55,
+      "max_score": 10.0,
+      "percentage": 85.5,
+      "grade": "A",
+      "scores": [
+        {
+          "criterion": "Market Demand",
+          "score": 9,
+          "reasoning": "8,500 monthly searches | High price point $297/mo | 45% market growth | High pain point severity",
+          "weight": 0.2,
+          "weighted_score": 1.8
+        },
+        {
+          "criterion": "Competition Level",
+          "score": 7,
+          "reasoning": "Clear competitive gap identified",
+          "weight": 0.15,
+          "weighted_score": 1.05
+        },
+        {
+          "criterion": "Time to Market",
+          "score": 8,
+          "reasoning": "Fast MVP (2 months)",
+          "weight": 0.15,
+          "weighted_score": 1.2
+        },
+        {
+          "criterion": "Monetization Clarity",
+          "score": 10,
+          "reasoning": "Clear model: Tiered SaaS | Strong pricing: $297/mo | Revenue path defined",
+          "weight": 0.15,
+          "weighted_score": 1.5
+        },
+        {
+          "criterion": "Technical Feasibility",
+          "score": 7,
+          "reasoning": "Medium complexity - standard stack | Leverages existing platforms",
+          "weight": 0.1,
+          "weighted_score": 0.7
+        },
+        {
+          "criterion": "Scalability",
+          "score": 10,
+          "reasoning": "Self-serve model | High margin potential",
+          "weight": 0.1,
+          "weighted_score": 1.0
+        },
+        {
+          "criterion": "Moat Potential",
+          "score": 8,
+          "reasoning": "Data moat | Vertical expertise",
+          "weight": 0.1,
+          "weighted_score": 0.8
+        },
+        {
+          "criterion": "Solo Founder Fit",
+          "score": 10,
+          "reasoning": "Product-led growth possible | Support can be automated | Simple operations",
+          "weight": 0.05,
+          "weighted_score": 0.5
+        }
+      ],
+      "strengths": [
+        "Monetization Clarity: Clear model: Tiered SaaS | Strong pricing: $297/mo | Revenue path defined",
+        "Scalability: Self-serve model | High margin potential",
+        "Solo Founder Fit: Product-led growth possible | Support can be automated | Simple operations"
+      ],
+      "weaknesses": [],
+      "recommended_actions": [
+        "Validate with customers: Get 5 paid pre-orders before building"
+      ],
+      "viability_rating": "HIGHLY VIABLE - Strong execution potential"
+    },
+    {
+      "idea_name": "Enterprise AI Pricing Calculator",
+      "category": "B2B Tool",
+      "total_score": 8.35,
+      "max_score": 10.0,
+      "percentage": 83.5,
+      "grade": "A-",
+      "scores": [
+        {
+          "criterion": "Market Demand",
+          "score": 8,
+          "reasoning": "3,200 monthly searches | 60% market growth | High pain point severity",
+          "weight": 0.2,
+          "weighted_score": 1.6
+        },
+        {
+          "criterion": "Competition Level",
+          "score": 9,
+          "reasoning": "Low competition | Clear competitive gap identified",
+          "weight": 0.15,
+          "weighted_score": 1.35
+        },
+        {
+          "criterion": "Time to Market",
+          "score": 10,
+          "reasoning": "Very fast MVP (<=1 month)",
+          "weight": 0.15,
+          "weighted_score": 1.5
+        },
+        {
+          "criterion": "Monetization Clarity",
+          "score": 8,
+          "reasoning": "Clear model: Freemium + Consulting | Revenue path defined",
+          "weight": 0.15,
+          "weighted_score": 1.2
+        },
+        {
+          "criterion": "Technical Feasibility",
+          "score": 10,
+          "reasoning": "Low complexity - existing tools/APIs | Leverages existing platforms",
+          "weight": 0.1,
+          "weighted_score": 1.0
+        },
+        {
+          "criterion": "Scalability",
+          "score": 7,
+          "reasoning": "High margin potential",
+          "weight": 0.1,
+          "weighted_score": 0.7
+        },
+        {
+          "criterion": "Moat Potential",
+          "score": 8,
+          "reasoning": "Data moat | Vertical expertise",
+          "weight": 0.1,
+          "weighted_score": 0.8
+        },
+        {
+          "criterion": "Solo Founder Fit",
+          "score": 4,
+          "reasoning": "Requires sales team | Support can be automated",
+          "weight": 0.05,
+          "weighted_score": 0.2
+        }
+      ],
+      "strengths": [
+        "Time to Market: Very fast MVP (<=1 month)",
+        "Technical Feasibility: Low complexity - existing tools/APIs | Leverages existing platforms",
+        "Competition Level: Low competition | Clear competitive gap identified"
+      ],
+      "weaknesses": [
+        "Solo Founder Fit: Requires sales team | Support can be automated"
+      ],
+      "recommended_actions": [
+        "Simplify operations: Remove components requiring team/complex sales"
+      ],
+      "viability_rating": "HIGHLY VIABLE - Strong execution potential"
+    },
+    {
+      "idea_name": "SOC 2 Compliance Accelerator for AI Startups",
+      "category": "B2B Compliance",
+      "total_score": 8.05,
+      "max_score": 10.0,
+      "percentage": 80.5,
+      "grade": "A-",
+      "scores": [
+        {
+          "criterion": "Market Demand",
+          "score": 9,
+          "reasoning": "6,500 monthly searches | High price point $500/mo | 70% market growth | High pain point severity",
+          "weight": 0.2,
+          "weighted_score": 1.8
+        },
+        {
+          "criterion": "Competition Level",
+          "score": 9,
+          "reasoning": "Low competition | Clear competitive gap identified",
+          "weight": 0.15,
+          "weighted_score": 1.35
+        },
+        {
+          "criterion": "Time to Market",
+          "score": 6,
+          "reasoning": "Moderate MVP timeline (3 months)",
+          "weight": 0.15,
+          "weighted_score": 0.9
+        },
+        {
+          "criterion": "Monetization Clarity",
+          "score": 10,
+          "reasoning": "Clear model: One-time + subscription | Strong pricing: $500/mo | Revenue path defined",
+          "weight": 0.15,
+          "weighted_score": 1.5
+        },
+        {
+          "criterion": "Technical Feasibility",
+          "score": 6,
+          "reasoning": "Medium complexity - standard stack",
+          "weight": 0.1,
+          "weighted_score": 0.6
+        },
+        {
+          "criterion": "Scalability",
+          "score": 10,
+          "reasoning": "Self-serve model | High margin potential",
+          "weight": 0.1,
+          "weighted_score": 1.0
+        },
+        {
+          "criterion": "Moat Potential",
+          "score": 8,
+          "reasoning": "Vertical expertise | Compliance barrier | Integration lock-in",
+          "weight": 0.1,
+          "weighted_score": 0.8
+        },
+        {
+          "criterion": "Solo Founder Fit",
+          "score": 2,
+          "reasoning": "Requires sales team",
+          "weight": 0.05,
+          "weighted_score": 0.1
+        }
+      ],
+      "strengths": [
+        "Monetization Clarity: Clear model: One-time + subscription | Strong pricing: $500/mo | Revenue path defined",
+        "Scalability: Self-serve model | High margin potential",
+        "Market Demand: 6,500 monthly searches | High price point $500/mo | 70% market growth | High pain point severity"
+      ],
+      "weaknesses": [
+        "Solo Founder Fit: Requires sales team"
+      ],
+      "recommended_actions": [
+        "Simplify operations: Remove components requiring team/complex sales"
+      ],
+      "viability_rating": "HIGHLY VIABLE - Strong execution potential"
+    },
+    {
+      "idea_name": "Viral Trend Alert System",
+      "category": "Media/Content",
+      "total_score": 7.75,
+      "max_score": 10.0,
+      "percentage": 77.5,
+      "grade": "B+",
+      "scores": [
+        {
+          "criterion": "Market Demand",
+          "score": 8,
+          "reasoning": "12,000 monthly searches | 35% market growth",
+          "weight": 0.2,
+          "weighted_score": 1.6
+        },
+        {
+          "criterion": "Competition Level",
+          "score": 7,
+          "reasoning": "Clear competitive gap identified",
+          "weight": 0.15,
+          "weighted_score": 1.05
+        },
+        {
+          "criterion": "Time to Market",
+          "score": 8,
+          "reasoning": "Fast MVP (2 months)",
+          "weight": 0.15,
+          "weighted_score": 1.2
+        },
+        {
+          "criterion": "Monetization Clarity",
+          "score": 10,
+          "reasoning": "Clear model: Subscription tiers | Strong pricing: $79/mo | Revenue path defined",
+          "weight": 0.15,
+          "weighted_score": 1.5
+        },
+        {
+          "criterion": "Technical Feasibility",
+          "score": 4,
+          "reasoning": "High complexity - specialized expertise | Leverages existing platforms",
+          "weight": 0.1,
+          "weighted_score": 0.4
+        },
+        {
+          "criterion": "Scalability",
+          "score": 9,
+          "reasoning": "Self-serve model",
+          "weight": 0.1,
+          "weighted_score": 0.9
+        },
+        {
+          "criterion": "Moat Potential",
+          "score": 6,
+          "reasoning": "Data moat",
+          "weight": 0.1,
+          "weighted_score": 0.6
+        },
+        {
+          "criterion": "Solo Founder Fit",
+          "score": 10,
+          "reasoning": "Product-led growth possible | Support can be automated | Simple operations",
+          "weight": 0.05,
+          "weighted_score": 0.5
+        }
+      ],
+      "strengths": [
+        "Monetization Clarity: Clear model: Subscription tiers | Strong pricing: $79/mo | Revenue path defined",
+        "Solo Founder Fit: Product-led growth possible | Support can be automated | Simple operations",
+        "Scalability: Self-serve model"
+      ],
+      "weaknesses": [
+        "Technical Feasibility: High complexity - specialized expertise | Leverages existing platforms"
+      ],
+      "recommended_actions": [
+        "De-risk tech: Build proof-of-concept or find technical co-founder"
+      ],
+      "viability_rating": "VIABLE - Proceed with validation"
+    },
+    {
+      "idea_name": "Crypto Arbitrage Monitor",
+      "category": "Crypto/Finance",
+      "total_score": 6.3,
+      "max_score": 10.0,
+      "percentage": 63.0,
+      "grade": "C+",
+      "scores": [
+        {
+          "criterion": "Market Demand",
+          "score": 7,
+          "reasoning": "45,000 monthly searches",
+          "weight": 0.2,
+          "weighted_score": 1.4
+        },
+        {
+          "criterion": "Competition Level",
+          "score": 3,
+          "reasoning": "Highly saturated market",
+          "weight": 0.15,
+          "weighted_score": 0.45
+        },
+        {
+          "criterion": "Time to Market",
+          "score": 6,
+          "reasoning": "Moderate MVP timeline (3 months)",
+          "weight": 0.15,
+          "weighted_score": 0.9
+        },
+        {
+          "criterion": "Monetization Clarity",
+          "score": 9,
+          "reasoning": "Clear model: Subscription | Pricing set: $49/mo | Revenue path defined",
+          "weight": 0.15,
+          "weighted_score": 1.35
+        },
+        {
+          "criterion": "Technical Feasibility",
+          "score": 4,
+          "reasoning": "High complexity - specialized expertise | Leverages existing platforms",
+          "weight": 0.1,
+          "weighted_score": 0.4
+        },
+        {
+          "criterion": "Scalability",
+          "score": 9,
+          "reasoning": "Self-serve model",
+          "weight": 0.1,
+          "weighted_score": 0.9
+        },
+        {
+          "criterion": "Moat Potential",
+          "score": 4,
+          "reasoning": "Limited defensibility",
+          "weight": 0.1,
+          "weighted_score": 0.4
+        },
+        {
+          "criterion": "Solo Founder Fit",
+          "score": 10,
+          "reasoning": "Product-led growth possible | Support can be automated | Simple operations",
+          "weight": 0.05,
+          "weighted_score": 0.5
+        }
+      ],
+      "strengths": [
+        "Solo Founder Fit: Product-led growth possible | Support can be automated | Simple operations",
+        "Monetization Clarity: Clear model: Subscription | Pricing set: $49/mo | Revenue path defined",
+        "Scalability: Self-serve model"
+      ],
+      "weaknesses": [
+        "Competition Level: Highly saturated market",
+        "Technical Feasibility: High complexity - specialized expertise | Leverages existing platforms",
+        "Moat Potential: Limited defensibility"
+      ],
+      "recommended_actions": [
+        "Differentiation: Define unique positioning or find underserved niche",
+        "De-risk tech: Build proof-of-concept or find technical co-founder",
+        "Build moat: Focus on network effects, data, or vertical specialization"
+      ],
+      "viability_rating": "MARGINAL - Requires significant improvement"
+    }
+  ],
+  "summary_statistics": {
+    "average_score": 78.0,
+    "highest_score": 85.5,
+    "lowest_score": 63.0,
+    "highly_viable_count": 3,
+    "viable_count": 1,
+    "marginal_count": 1,
+    "weak_count": 0
+  },
+  "top_recommendations": {
+    "immediate_pursue": [
+      "AI Agency Lead Generator (Vertical Specialist)",
+      "Enterprise AI Pricing Calculator",
+      "SOC 2 Compliance Accelerator for AI Startups"
+    ],
+    "validate_first": [
+      "Viral Trend Alert System"
+    ],
+    "needs_work": [
+      "Crypto Arbitrage Monitor"
+    ]
+  }
+}
